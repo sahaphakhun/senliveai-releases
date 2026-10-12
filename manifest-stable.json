@@ -1,0 +1,24 @@
+{
+  "product": "senliveai",
+  "channel": "stable",
+  "version": "1.1.1",
+  "build": 3,
+  "published_at": "2026-10-13 06:16",
+  "notes_th": "รุ่นแรก SenLiveAi 1.1.1",
+  "assets": {
+    "setup": {
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.1/SenLiveAi-Setup-1.1.1.exe",
+      "sha256": "5138b7a4f073c67d4d6aa05b3da3ef78d34de96c9b4d4cb9b8c12176a333f792",
+      "size": 77714736
+    },
+    "patch": {
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.1/SenLiveAi-Patch-1.1.1.zip",
+      "sha256": "091754261fd077a9d597c9abe99ccd27631fdf61c145ed63855ffa4ec3f5a8e2",
+      "size": 3886555,
+      "requirements_sha256": "043448048e24dd7ee500884207f04db550f76ebea4dd95756d6b98399efcee4d"
+    }
+  },
+  "mandatory": false,
+  "code_hash": "89f5699a229506c1163d7a00632659133475bbd427ea646b8905bbafcb4a505f",
+  "sig": "sqIakdy95GBim_o3IYUjTQj1P7gD2TFrueiqh6yc5qozBix-loUrsM2xzUVK51qi_CzUbIDYOtV7krv3sa4nCQ"
+}
