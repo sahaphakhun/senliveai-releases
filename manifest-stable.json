@@ -1,24 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.1.1",
-  "build": 3,
-  "published_at": "2026-10-13 06:16",
-  "notes_th": "รุ่นแรก SenLiveAi 1.1.1",
+  "version": "1.1.2",
+  "build": 5,
+  "published_at": "2026-10-14 23:32",
+  "notes_th": "รุ่น 1.1.2 — ชุดแจกลูกค้า (SenLiveAi + SenRerun)\n\n• ไม่มีแบบทดลองฟรี: สมัครสมาชิกที่ sentarstudio.com แล้วใส่รหัสคำสั่งซื้อ 8 ตัวในโปรแกรม (ปุ่มทดลองฟรีไม่มีแล้ว)\n• โหมดประหยัด: AI ในเครื่อง (Ollama) + เสียงในเครื่อง (Windows / เสียงไทย ONNX) — ไลฟ์ได้โดยไม่ใช้ API เลย (สวิตช์เดียวใน ⚙ ค่าใช้จ่าย)\n• เตือนต่ออายุ: แถบ \"ต่ออายุ\" ล่างจอที่ 7/3/0 วันก่อนหมด + ปุ่มเปิดหน้าร้านต่ออายุ (ไม่ตัดไลฟ์ที่กำลังออกอากาศ)\n• รหัสคำสั่งซื้อ: เปิดใช้งานด้วยรหัส 8 ตัวจากหน้าร้าน Sentar Studio ไม่ต้องคัดลอกคีย์ · ปุ่ม \"ขอคีย์จากผู้ขาย\" ส่งรหัสเครื่องให้เอง\n• ตรวจสลิป/ร้านใหม่: หน้าร้าน Sentar Studio โฉมใหม่ (รายเดือน/รายปี · โค้ดส่วนลด · แนะนำเพื่อน) + ระบบตรวจสลิปอัตโนมัติ (SlipOK/EasySlip + กัน QR ซ้ำ)\n• ffmpeg มากับตัวติดตั้งแล้ว (ชุด LGPL แจกได้) — ไลฟ์ตรง RTMP/รีรันคลิปได้ทุกเครื่อง: การ์ดจอ NVIDIA/Intel/AMD หรือซีพียู (h264_mf ของ Windows) เลือกให้เอง\n• SenRerun: ไม่มีชื่อ/โลโก้ SenLiveAi และ SenCut ในโปรแกรมและตัวติดตั้ง",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.1/SenLiveAi-Setup-1.1.1.exe",
-      "sha256": "5138b7a4f073c67d4d6aa05b3da3ef78d34de96c9b4d4cb9b8c12176a333f792",
-      "size": 77714736
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.2/SenLiveAi-Setup-1.1.2.exe",
+      "sha256": "5f673363211febb1690c7ba80813b75d6600c1a23b535660d80f3fa8f5acf14e",
+      "size": 141766092
+    },
+    "setup_rerun": {
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.2/SenRerun-Setup-1.1.2.exe",
+      "sha256": "a3dae82c80a7bc4ab81f65e57a7c49aa9798d9add0353888a19a1a4958c691d1",
+      "size": 136393717
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.1/SenLiveAi-Patch-1.1.1.zip",
-      "sha256": "091754261fd077a9d597c9abe99ccd27631fdf61c145ed63855ffa4ec3f5a8e2",
-      "size": 3886555,
-      "requirements_sha256": "043448048e24dd7ee500884207f04db550f76ebea4dd95756d6b98399efcee4d"
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.2/SenLiveAi-Patch-1.1.2.zip",
+      "sha256": "19a60a4d2a728b99ee951b56b8f8477a7374b31773702db55914face5c005c8b",
+      "size": 9611470,
+      "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "89f5699a229506c1163d7a00632659133475bbd427ea646b8905bbafcb4a505f",
-  "sig": "sqIakdy95GBim_o3IYUjTQj1P7gD2TFrueiqh6yc5qozBix-loUrsM2xzUVK51qi_CzUbIDYOtV7krv3sa4nCQ"
+  "code_hash": "452f72841836aef63bf4c790f74547e3b38fe83aec9500cde61a2767b8dce4e1",
+  "sig": "laCRRx2Zi26AIadNEw6eXtmCLSw49U1qxiaruIEbt35u-ubsQnXkDHuiCg53vhtN_8JxvnnesUsg_CUV-9BnCw"
 }
