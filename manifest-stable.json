@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.1.3",
-  "build": 6,
-  "published_at": "2026-10-15 04:18",
-  "notes_th": "รุ่น 1.1.3 — หน้าตาแบบใหม่ใช้ง่าย + ติดตั้งปุ่มเดียว (SenLiveAi + SenRerun)\n\n• หน้าตาแบบใหม่ (ใช้ง่าย): เมนูซ้าย · หน้าแรกปุ่มเดียว \"เริ่มไลฟ์\" + การ์ดสถานะ 4 ใบพร้อมปุ่ม \"แก้ให้\" · เพิ่มพนักงานหน้าเดียว · หน้า \"ช่วยเหลือ\" เช็กเครื่อง + ส่งปัญหาให้ผู้ขาย (ซ่อนคีย์/รหัสก่อนส่ง)\n• สลับกลับหน้าตาเดิมได้ที่ ⚙ ตั้งค่า › ระบบ › \"หน้าตาแบบใหม่ (ใช้ง่าย)\"\n• เสียงไทยของ Windows: เลือกแล้วติดตั้งให้ทันที · ฟังตัวอย่างออกลำโพงจริง · VB-Cable ไม่แย่งลำโพงหลัก\n• โหมดเครื่องสเปกต่ำ: ติดตั้ง/สลับ/ทำต่อปุ่มเดียว\n• ตัวเร่งการ์ดจอ (TensorRT): ใช้กับการ์ด 6 GB ได้แล้ว — ภาพพนักงานลื่นขึ้น\n• AI ในเครื่อง (Ollama): เลือกแล้วติดตั้งทันที",
+  "version": "1.1.4",
+  "build": 7,
+  "published_at": "2026-10-15 09:33",
+  "notes_th": "รุ่น 1.1.4 — แก้ด่วน: รีรันคลิปเล่นไม่ได้ (SenRerun + SenLiveAi)\n\n• แก้ปัญหาโหมดรีรันคลิปขึ้น \"เล่นคลิป … ไม่ได้ — ข้ามไปคลิปถัดไป\" แล้วภาพดำ — อัปเดตแล้วเริ่มไลฟ์ได้เลย ไม่ต้องตั้งค่าใหม่ ไม่ต้องลงโปรแกรมใหม่\n• ถ้าคลิปไหนเล่นไม่ได้จริง โปรแกรมลองวิธีสำรองให้เองก่อน แล้วบอกสาเหตุเป็นภาษาไทย (ไฟล์ถูกย้าย/ไฟล์เสีย/โปรแกรมป้องกันไวรัสกัน)\n• ส่งภาพตรงไป TikTok: ถ้าการ์ดจอเข้ารหัสภาพไม่ได้ (เช่นไดรเวอร์ NVIDIA รุ่นเก่า) โปรแกรมสลับไปใช้ซีพียูให้เองทันที ไลฟ์ไม่หลุด — อัปเดตไดรเวอร์การ์ดจอจะลื่นขึ้น",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.3/SenLiveAi-Setup-1.1.3.exe",
-      "sha256": "698a107c4d810994c967b80238297cdcedcf2a02350c1c27efe0c010bd956e12",
-      "size": 141934843
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.4/SenLiveAi-Setup-1.1.4.exe",
+      "sha256": "530564123d7b39e4bd8637efe2079d6935a873fa40ae6812b72288906d80b00c",
+      "size": 141952881
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.3/SenRerun-Setup-1.1.3.exe",
-      "sha256": "c5de84f21ec892b3ccd7f39a83333de5aad796e7faea597c44b1d5bd662bc699",
-      "size": 136582085
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.4/SenRerun-Setup-1.1.4.exe",
+      "sha256": "6bc3e008b998393ddf1bc06770fd261b6747cc7b652b6032418f38f8362eefa7",
+      "size": 136593059
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.3/SenLiveAi-Patch-1.1.3.zip",
-      "sha256": "f8e30456beab43b5ea116c7b7977743f665ecaa6f24e27c410312f8dcb7306f1",
-      "size": 9893771,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.4/SenLiveAi-Patch-1.1.4.zip",
+      "sha256": "9051383ed73103b3c72dce46d13d354326c6c5e2ccced51389cd82445cf39cf5",
+      "size": 9921681,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "86e766feb5faeef54d8b6bac1f86bdbdd51dccbaa8d0ff94f9873b082cd2c7dd",
-  "sig": "4aYzD7IjhG4OU2jT395YuzFPjDBTo1CJbB_eXGH6A1Nn_wUCwpYD1zTTWKtG4PkdoYYPXblj1D6Tq8GypZfKCQ"
+  "code_hash": "54ccca1856f671684376b139d94036d14dd853067cceea06820fffe1ce0cffd1",
+  "sig": "tLS8aG3f9d-GFdeR4kjfnMbgOopvMWy66-ppc0WYDXbx0MoyJHxFzsuvcUEuT4KRinT2A8wx0WYRHaNvjIjTBA"
 }
