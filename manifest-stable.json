@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.1.5",
-  "build": 8,
-  "published_at": "2026-10-15 11:10",
-  "notes_th": "รุ่น 1.1.5 — แก้ด่วน: AI ตอบตรงคำถามคนดู (SenRerun + SenLiveAi)\n\n• แก้ปัญหา AI พูดแต่ \"กดในตะกร้าได้เลย\" ไม่ตอบที่คนดูถาม — ตอนนี้ถามราคา ไซส์ ส่งกี่วัน ใช้ยังไง AI ตอบเรื่องนั้นตรง ๆ ทุกโหมดค่าใช้จ่าย รวมถึง \"ประหยัดสุด\" (ประหยัดสุดตอบสั้นลง)\n• ยังไม่ได้ใส่ข้อมูลสินค้า: AI บอกตามจริงว่าเดี๋ยวเช็กให้ หรือชวนดูรายละเอียดในหน้าสินค้า ไม่เดาราคา\n• คอมเมนต์เข้าเยอะ: ตอบคนที่ถามคำถามก่อนคำทักทาย\n• รีรันคลิป: ตอน AI พูด เสียงคลิปเบาลงมากขึ้น ได้ยินคำตอบชัด (ปรับได้ที่ \"ลดเสียงคลิปตอนตอบ\")\n• อ่านคอมเมนต์จากหน้าตัวจัดการ LIVE ของ TikTok ได้ในหน้าต่างเดียว (ถ้าอ่านไม่ครบ โปรแกรมกลับไปใช้แบบเดิมให้เอง) + ปุ่ม \"แสดงหน้าต่าง TikTok\"\n• แก้เสียงหายกลางไลฟ์บางประโยค และคำว่า \"pause\" หลุดออกไลฟ์ — ถ้าเสียงหลักล้ม โปรแกรมใช้เสียงสำรองให้เอง",
+  "version": "1.3.0",
+  "build": 11,
+  "published_at": "2026-10-15 13:08",
+  "notes_th": "รุ่น 1.3.0 — หน้าตาใหม่ ใช้ง่ายสำหรับมือใหม่ (SenLiveAi + SenRerun)\n\n• หน้าตาใหม่ เมนูอยู่ด้านบน เรียงตามลำดับการใช้งาน (โลโก้และสีเดิม) · ตัวอักษรไทยอ่านง่ายขึ้น\n• เส้นทาง 5 ขั้นสำหรับมือใหม่ บนหน้าแรก: อัปคลิปหน้าตัวเอง → สร้างพนักงาน AI → เลือกสินค้า → สอน AI → เริ่มไลฟ์ (SenRerun: เลือกคลิป → เลือกสินค้า → สอน AI → เริ่มไลฟ์) กดปุ่มเดียวพาไปทำขั้นนั้นทันที ข้ามแล้วกลับมาทำต่อได้\n• หน้าไลฟ์เต็มจอ: เห็นภาพไลฟ์ คนดู คอมเมนต์ ยอดขาย ในจอเดียว + ช่อง \"สั่ง AI\" พิมพ์สั่งได้ทันทีระหว่างไลฟ์\n• ปุ่ม \"แก้ทุกอย่างให้\": โปรแกรมไล่แก้ปัญหาที่แก้เองได้ทีละข้อ ส่วนที่ต้องทำเองบอกวิธีพร้อมปุ่ม\n• ป้ายสถานะตัวเร่งการ์ดจอ (เครื่องที่มีการ์ดจอ NVIDIA): บอกชัดว่า พร้อมใช้ / กำลังเตรียม / ยังไม่ติดตั้ง (มีปุ่มติดตั้ง)\n• อยากใช้หน้าเดิม: ตั้งค่า › ระบบ › ปิด \"หน้าตาแบบใหม่\" ได้ — ข้อมูลเดิมอยู่ครบ",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.5/SenLiveAi-Setup-1.1.5.exe",
-      "sha256": "ff6ecef1eb4550cb548071b8b1cba8b48d12f3a53c66a3fe7b0ea7e38015df7b",
-      "size": 142010273
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.0/SenLiveAi-Setup-1.3.0.exe",
+      "sha256": "f5ed6dd2f6574be0e6256957c8879d1a18e13f0b35258dbb8c1be948d2ba479e",
+      "size": 142257844
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.5/SenRerun-Setup-1.1.5.exe",
-      "sha256": "b70333279293fdaf4f104996ecbbf3dbfee6264b242ba889aa9c07f8e04e6c2d",
-      "size": 136643989
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.0/SenRerun-Setup-1.3.0.exe",
+      "sha256": "78eebb03a94fead81b9bd29a407a1c94613f6273be137cf36dccb8d5c804d971",
+      "size": 136888237
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.5/SenLiveAi-Patch-1.1.5.zip",
-      "sha256": "8e9b7e8bd43d21f2b0ece1df94c3a9865ee06c46bf580ad58be09fb59f330b78",
-      "size": 9988327,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.0/SenLiveAi-Patch-1.3.0.zip",
+      "sha256": "3907289fa4530830afcb89a8688b8aee7b0b25d3b887a80bf698742c92594cab",
+      "size": 10318158,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "0ee54d420fda89aa8a016af659297c861d7813b56674d1cabd0ce9c7fc8216b4",
-  "sig": "X4D7xybRkyW6DGvu7alxshzLGs39rOq1Zz1lQgA8cm-vNX3nZHoWQnAqeAmy19rzDW_35bPwIrSDe-hpvovhBQ"
+  "code_hash": "944639247cb8b4dfa7ee890cc348f2a97a2e5209bbbedcb96cfc5e0c9fe9099b",
+  "sig": "nb5HJRZSJsF8r-Otmi6-Beap3GoWtyFWaCu4kSZpfefXXaqhDFea6RdyWbmrQbXB_KdeYiGaWCTqP68_boJTAw"
 }
