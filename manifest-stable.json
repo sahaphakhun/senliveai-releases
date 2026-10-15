@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.1",
-  "build": 12,
-  "published_at": "2026-10-15 15:50",
-  "notes_th": "รุ่น 1.3.1 — แก้ด่วน: หน้าต่าง TikTok บานเดียว · ลดโอกาสโดนขอยืนยันตัวตน · อวตารร่างประหยัดพิเศษเนียนขึ้น (SenLiveAi + SenRerun)\n\n• หน้าต่าง TikTok เหลือบานเดียว (ยอดขายสด · LIVE Manager) ไม่เปิดหน้าต่างล็อกอินซ้ำ หน้าต่างอ่านคอมเมนต์ในพื้นหลังอยู่นอกจอ คลิกเองได้ตามปกติ\n• ไลฟ์เงียบไม่โหลดหน้าซ้ำ (รอนานขึ้นเป็น 2 → 5 → 10 นาที) ลดโอกาสโดน TikTok ขอยืนยันตัวตน\n• เจอจิ๊กซอว์/403 หยุดเองแล้วแจ้งให้ยืนยัน ไม่โหลดซ้ำจนโดนหนักขึ้น\n• อวตารร่างประหยัดพิเศษ: ปาก/คาง/คอเนียนขึ้น ไม่เป็นปื้นสี่เหลี่ยม ไม่ต้องสร้างอวตารใหม่",
+  "version": "1.3.2",
+  "build": 13,
+  "published_at": "2026-10-15 16:51",
+  "notes_th": "รุ่น 1.3.2 — เส้นทางใหม่ 5 ขั้น · กรอกข้อมูลสินค้าเอง · เตรียมเสียงล่วงหน้าก่อนไลฟ์ (SenLiveAi + SenRerun)\n\n• เส้นทางใหม่ 5 ขั้น (SenRerun 4 ขั้น): เอาขั้น \"เลือกสินค้าในตะกร้า\" ออก — AI ตามสินค้าที่ปักใน TikTok เอง\n• แผ่นข้อมูลสินค้ากรอกเอง + ตัววัด \"ข้อมูลพร้อมปิดการขาย\" บอกช่องที่ยังขาด ข้อมูลที่กรอกเองชนะข้อมูลตะกร้าเสมอ\n• เตรียมเสียงล่วงหน้า + ฟังทดสอบก่อนไลฟ์: สร้างเสียงบทขาย/คำตอบ/ทักทาย/เลขราคาไว้ก่อน บอกประมาณการก่อนกด หยุดได้ทุกเมื่อ — ประหยัดค่าเสียงตอนไลฟ์มาก\n• ElevenLabs ใช้เสียง v4 กับ v4 Turbo คู่กัน: เสียงที่เตรียมไว้ใช้ v4 (ธรรมชาติสุด) คำตอบสดตอนไลฟ์ใช้ v4 Turbo (เร็ว ถูกกว่าราวครึ่ง)",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.1/SenLiveAi-Setup-1.3.1.exe",
-      "sha256": "2bf58e1a79616ea768102220518a1b9ed85fabe34680345da2396df8cf69cb16",
-      "size": 142279923
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.2/SenLiveAi-Setup-1.3.2.exe",
+      "sha256": "6db038b57aa0128e1024d292789029f41dbd3494f74ec4c854206f3aec997ac6",
+      "size": 142376511
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.1/SenRerun-Setup-1.3.1.exe",
-      "sha256": "6bec5b401199129bc93d670e52629952b4a6407b8134680d12f19bf33eb5780d",
-      "size": 136905477
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.2/SenRerun-Setup-1.3.2.exe",
+      "sha256": "a394d75034ea40ab7da60d1881ec1bb5f4375573e5749af12203024da38798a0",
+      "size": 137011534
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.1/SenLiveAi-Patch-1.3.1.zip",
-      "sha256": "677804622cfe3d4e9d2630aa18e54d67992220764e1331bc902797be94c35afa",
-      "size": 10349495,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.2/SenLiveAi-Patch-1.3.2.zip",
+      "sha256": "95fc3d0e70753af47b3ff4b1469ee67f4c26de3aa77070dafade04d1946fe0ed",
+      "size": 10512710,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "76f3fd443d6e70ab32a06a9ba82fcb1623075e1c1c28c33f968a53a269b7d126",
-  "sig": "sUaK7yEkugqTg05Rw1_UkUb6T6YS5r8owY0dKLjamBXNxwDdPL0pSP6er3OcJJ3l0F9CAKGsSYKoIaJFMDFoCA"
+  "code_hash": "0707f443dba6682b7ae265dd1e299ec2dce286ffb8ef26fb8e70f8b4ae4d910d",
+  "sig": "qqPo8Ae5dT3gWuO1DzQozeCrIIeIxkedpO6yrGi6IiDXXXRYvIlSPg48cgVJ5yaDVXro1AdCj352eqSuihTWCw"
 }
