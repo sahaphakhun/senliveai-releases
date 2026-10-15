@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.1.4",
-  "build": 7,
-  "published_at": "2026-10-15 09:33",
-  "notes_th": "รุ่น 1.1.4 — แก้ด่วน: รีรันคลิปเล่นไม่ได้ (SenRerun + SenLiveAi)\n\n• แก้ปัญหาโหมดรีรันคลิปขึ้น \"เล่นคลิป … ไม่ได้ — ข้ามไปคลิปถัดไป\" แล้วภาพดำ — อัปเดตแล้วเริ่มไลฟ์ได้เลย ไม่ต้องตั้งค่าใหม่ ไม่ต้องลงโปรแกรมใหม่\n• ถ้าคลิปไหนเล่นไม่ได้จริง โปรแกรมลองวิธีสำรองให้เองก่อน แล้วบอกสาเหตุเป็นภาษาไทย (ไฟล์ถูกย้าย/ไฟล์เสีย/โปรแกรมป้องกันไวรัสกัน)\n• ส่งภาพตรงไป TikTok: ถ้าการ์ดจอเข้ารหัสภาพไม่ได้ (เช่นไดรเวอร์ NVIDIA รุ่นเก่า) โปรแกรมสลับไปใช้ซีพียูให้เองทันที ไลฟ์ไม่หลุด — อัปเดตไดรเวอร์การ์ดจอจะลื่นขึ้น",
+  "version": "1.1.5",
+  "build": 8,
+  "published_at": "2026-10-15 11:10",
+  "notes_th": "รุ่น 1.1.5 — แก้ด่วน: AI ตอบตรงคำถามคนดู (SenRerun + SenLiveAi)\n\n• แก้ปัญหา AI พูดแต่ \"กดในตะกร้าได้เลย\" ไม่ตอบที่คนดูถาม — ตอนนี้ถามราคา ไซส์ ส่งกี่วัน ใช้ยังไง AI ตอบเรื่องนั้นตรง ๆ ทุกโหมดค่าใช้จ่าย รวมถึง \"ประหยัดสุด\" (ประหยัดสุดตอบสั้นลง)\n• ยังไม่ได้ใส่ข้อมูลสินค้า: AI บอกตามจริงว่าเดี๋ยวเช็กให้ หรือชวนดูรายละเอียดในหน้าสินค้า ไม่เดาราคา\n• คอมเมนต์เข้าเยอะ: ตอบคนที่ถามคำถามก่อนคำทักทาย\n• รีรันคลิป: ตอน AI พูด เสียงคลิปเบาลงมากขึ้น ได้ยินคำตอบชัด (ปรับได้ที่ \"ลดเสียงคลิปตอนตอบ\")\n• อ่านคอมเมนต์จากหน้าตัวจัดการ LIVE ของ TikTok ได้ในหน้าต่างเดียว (ถ้าอ่านไม่ครบ โปรแกรมกลับไปใช้แบบเดิมให้เอง) + ปุ่ม \"แสดงหน้าต่าง TikTok\"\n• แก้เสียงหายกลางไลฟ์บางประโยค และคำว่า \"pause\" หลุดออกไลฟ์ — ถ้าเสียงหลักล้ม โปรแกรมใช้เสียงสำรองให้เอง",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.4/SenLiveAi-Setup-1.1.4.exe",
-      "sha256": "530564123d7b39e4bd8637efe2079d6935a873fa40ae6812b72288906d80b00c",
-      "size": 141952881
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.5/SenLiveAi-Setup-1.1.5.exe",
+      "sha256": "ff6ecef1eb4550cb548071b8b1cba8b48d12f3a53c66a3fe7b0ea7e38015df7b",
+      "size": 142010273
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.4/SenRerun-Setup-1.1.4.exe",
-      "sha256": "6bc3e008b998393ddf1bc06770fd261b6747cc7b652b6032418f38f8362eefa7",
-      "size": 136593059
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.5/SenRerun-Setup-1.1.5.exe",
+      "sha256": "b70333279293fdaf4f104996ecbbf3dbfee6264b242ba889aa9c07f8e04e6c2d",
+      "size": 136643989
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.4/SenLiveAi-Patch-1.1.4.zip",
-      "sha256": "9051383ed73103b3c72dce46d13d354326c6c5e2ccced51389cd82445cf39cf5",
-      "size": 9921681,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.1.5/SenLiveAi-Patch-1.1.5.zip",
+      "sha256": "8e9b7e8bd43d21f2b0ece1df94c3a9865ee06c46bf580ad58be09fb59f330b78",
+      "size": 9988327,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "54ccca1856f671684376b139d94036d14dd853067cceea06820fffe1ce0cffd1",
-  "sig": "tLS8aG3f9d-GFdeR4kjfnMbgOopvMWy66-ppc0WYDXbx0MoyJHxFzsuvcUEuT4KRinT2A8wx0WYRHaNvjIjTBA"
+  "code_hash": "0ee54d420fda89aa8a016af659297c861d7813b56674d1cabd0ce9c7fc8216b4",
+  "sig": "X4D7xybRkyW6DGvu7alxshzLGs39rOq1Zz1lQgA8cm-vNX3nZHoWQnAqeAmy19rzDW_35bPwIrSDe-hpvovhBQ"
 }
