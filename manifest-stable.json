@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.3",
-  "build": 14,
-  "published_at": "2026-10-15 17:57",
-  "notes_th": "รุ่น 1.3.3 — หน้า \"สคริปต์และเสียง\" หน้าเดียว · สอน AI เหลือ 4 ช่อง · อัดเสียงตัวเองได้ฟรี (SenLiveAi + SenRerun)\n\n• หน้า \"สคริปต์และเสียง\" หน้าเดียว: เห็นทุกประโยคพร้อมกัน ฟังเสียง · อัดเสียงตัวเอง · หรือสร้างเสียงเฉพาะประโยคที่ยังขาด จบในหน้าเดียว\n• อัดเสียงตัวเองได้ฟรี ไม่เสียค่า API — เสียงที่อัดเองใช้แทนเสียง AI ทุกที่ที่ข้อความตรงกัน\n• สอน AI เหลือข้อมูลสินค้า 4 ช่อง (ราคา/โปร · ขนาด · วิธีใช้ · ส่งกี่วัน) — ที่เหลือเก็บไว้ใต้ \"ขั้นสูง\"\n• เมนูที่ยุ่ง ๆ ย้ายไปอยู่ใต้ \"ขั้นสูง\" หน้าหลักเหลือแต่ที่ต้องใช้จริง",
+  "version": "1.3.4",
+  "build": 15,
+  "published_at": "2026-10-15 18:52",
+  "notes_th": "รุ่น 1.3.4 — ซ่อนเมนูขั้นสูงทั้งหมด หน้าจอเรียบง่ายขึ้น",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.3/SenLiveAi-Setup-1.3.3.exe",
-      "sha256": "14b8ee4f8c7169aa1b712a1ffb366dee592a99e9dc50e7782a4f386e6d451e88",
-      "size": 142432137
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.4/SenLiveAi-Setup-1.3.4.exe",
+      "sha256": "5e8caab2e87e48858d263e3bf59ac81513657bd09878b9af30e4149a76413e5c",
+      "size": 142424289
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.3/SenRerun-Setup-1.3.3.exe",
-      "sha256": "e2685edb2635d58fd9fc2cc12b9e2e98e7a5cc0e7678745542cd3ec89bf04faf",
-      "size": 137048578
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.4/SenRerun-Setup-1.3.4.exe",
+      "sha256": "84a31302b8b958f769b67a966b5eafc9e42ee316cdf8ff0e3025dfece354b28e",
+      "size": 137067368
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.3/SenLiveAi-Patch-1.3.3.zip",
-      "sha256": "69305e2862e86168bcae9d052946e0e03f58eb99c3c298de93e3d5a03fc8815b",
-      "size": 10582337,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.4/SenLiveAi-Patch-1.3.4.zip",
+      "sha256": "45b18b3c89fce5900cf2e7b5f9b5b9a992a856ba431ad8697cce375f618fbdea",
+      "size": 10587267,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "09c869c1f97ef194f316d8327162ae8aa67751c7eb29cda862be987f59ef31ea",
-  "sig": "8rRUQzMsN2DLLLxVPXHvySce9Xbp-rIN5Ki96KzrWUfv0E_R8q5S55-ZIuhiWvYaaY3zrJC5Lcg7RssYCb_GDw"
+  "code_hash": "4030fba909c1d094c22617b96d11192d0ac270e5d6ef4dc80266d61b7e9f6167",
+  "sig": "AqpRvAw9HhY_TVTILGV_XY6Yq79QUV41pDzn5LuIlQJb0BLmPrDlod_n-pHnRHCmlIrVxcwvTSAL9MO_lHVUCA"
 }
