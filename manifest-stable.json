@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.6",
-  "build": 17,
-  "published_at": "2026-10-15 22:02",
-  "notes_th": "รุ่น 1.3.6 — ปรับวิธีพูดและค่าใช้จ่ายได้เองจากหน้าไลฟ์ ระหว่างไลฟ์ก็ได้ · ลูกค้าใหม่เริ่มที่โหมดสมดุล · SenRerun ปิด AI ได้ (วิดีโอวนอย่างเดียว ไม่ต้องมีคีย์)",
+  "version": "1.3.8",
+  "build": 19,
+  "published_at": "2026-10-16 00:53",
+  "notes_th": "รุ่น 1.3.8 — ฉาก: ครอปวิดีโอพนักงานได้ · ใส่วิดีโอวนเล่นในฉาก (คลิปสาธิตสินค้า) · สลับชั้นหน้า/หลังได้ทุกชิ้น รวมตัวพนักงาน",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.6/SenLiveAi-Setup-1.3.6.exe",
-      "sha256": "c019e14eac97261c8b0e52890abd7b3ed364920afc50b7eb65f1270561085ac9",
-      "size": 142521281
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.8/SenLiveAi-Setup-1.3.8.exe",
+      "sha256": "ff54fb7fa276f31ba2fd9682ae88bd3e1fb8e6a85ecac2283d79368bd3559ea7",
+      "size": 142776239
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.6/SenRerun-Setup-1.3.6.exe",
-      "sha256": "b9e84ecfbd4412de325fc5f89bc63851926dcfe1ddd135e47beeaddd61fb2596",
-      "size": 137170168
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.8/SenRerun-Setup-1.3.8.exe",
+      "sha256": "d32e9b427c2f2eb783262edc31a18cb5a9bcb0468312eeeeb899bdcd30a78e8c",
+      "size": 137395925
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.6/SenLiveAi-Patch-1.3.6.zip",
-      "sha256": "da826548eeeb67eb5638b4294657636817057b4b249285e08d224fc73f819d1b",
-      "size": 10761689,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.8/SenLiveAi-Patch-1.3.8.zip",
+      "sha256": "7cebf06d0305a74657945c33844d42b53cdd318af4500d643c3f917cc9cc8d08",
+      "size": 11118735,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "6933b181f8524f036673cf4764e2d3e5b498a70cd01b612c4d03d0235ed084c4",
-  "sig": "tywBnNdUsPE8gb-YX09dgiwBIpaTrlbsvN5t3J7BMVcuPC0YhFgFQ-UBjS8Rzo007KW524Rx2g3ik7cBeTHBBg"
+  "code_hash": "0ed6b2305a94c2e09dcd3d7f1728e448dc13a6b5cb81e35afab4b5b213835d78",
+  "sig": "WfqzYuBYwiIXOfzus9nGyV9B2Pm9d6miSLaxtc2S2CuEN3wOCkS64G0hli7o7GB5Pyh8ta9K1A3mRGB3kmc6BA"
 }
