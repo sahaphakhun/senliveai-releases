@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.12",
-  "build": 23,
-  "published_at": "2026-10-16 20:32",
-  "notes_th": "รุ่น 1.3.12 — (1) ตอนพนักงาน AI เงียบ ใช้หน้าจริงช่วงที่คนในคลิปหยุดพูด ดูเป็นธรรมชาติขึ้น (คลิปที่ไม่พูดเลย = หน้าจริงตลอดตอนเงียบ) · (2) สร้างพนักงานแบบคุณภาพสูงจากคลิปที่ไม่พูด ไม่ขึ้นคำเตือนแล้ว · (3) SenRerun/ฉาก: คลิปฉากหลังและคลิปประกอบยาวเท่าไรก็ได้ ไม่จำกัดขนาดไฟล์ (เช็คแค่พื้นที่ดิสก์)",
+  "version": "1.3.13",
+  "build": 24,
+  "published_at": "2026-10-16 21:41",
+  "notes_th": "รุ่น 1.3.13 — SenRerun: หน้าไลฟ์เรียบง่ายขึ้น (แยกก่อนไลฟ์/ระหว่างไลฟ์ · ระหว่างไลฟ์ยอดขายอยู่บนสุด) · ตัวเลขค่าใช้จ่ายแยกชัด (ค่า AI / ค่าเสียง) และถูกต้อง · เลือกเสียงพากย์ได้ง่าย · เห็นตัวเลือกความละเอียด/เฟรมเรตแล้ว · มีสวิตช์ \"แสดงตัวเลือกทั้งหมด\" ในตั้งค่า · ไม่มีข้อความของ SenLiveAi ปนแล้ว · ไม่สร้างเสียงที่ไม่ได้ใช้ (ประหยัดค่าเสียง) — ทั้งสองโปรแกรม: มิเตอร์ค่าใช้จ่ายแยกค่า AI กับค่าเสียงตามผู้ให้บริการจริง",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.12/SenLiveAi-Setup-1.3.12.exe",
-      "sha256": "d1e9d64e42af10b43e13f1fdf59fb4673fbb87c65b8824cb80ac1ce1a839cd1a",
-      "size": 142915425
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.13/SenLiveAi-Setup-1.3.13.exe",
+      "sha256": "e02a9586bb9b4f2bbe86cccfb2cb077f3cb56609c7659bbaa714a88e49c290ba",
+      "size": 142951021
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.12/SenRerun-Setup-1.3.12.exe",
-      "sha256": "26dd0353269835c7effbaa4ae8b21078f07675bc38be035ade7655c34f861a61",
-      "size": 137558634
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.13/SenRerun-Setup-1.3.13.exe",
+      "sha256": "1f7cb9c9ee2c433433c3b09f32584b5cf102cc00465e56f8f89e9829ab2f4d2e",
+      "size": 137582291
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.12/SenLiveAi-Patch-1.3.12.zip",
-      "sha256": "beb9b0221576b242369b742cf61e3118fbcf5a69e277e9c2c7f8f13388c19f6f",
-      "size": 11339882,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.13/SenLiveAi-Patch-1.3.13.zip",
+      "sha256": "32a257e1acfe8a43162251be27aede6e30d91ffc3fed14d506cfcae61f964134",
+      "size": 11384274,
       "requirements_sha256": "353b18c0e21e508756bce893d96ebf7149f842a3a8d5a9c72393a91897fdec6c"
     }
   },
   "mandatory": false,
-  "code_hash": "551bb80ada6d2c1bf70463786cb175df420f44a497d3535ac305cdc98f52794c",
-  "sig": "bhQPdZM0DcYehHrEKW345V85g_AnKRqGX8ufXrh8EbjJyuWgiW05WzTyDIHkyrrMCkhXt9K6BxP4tR9OgGKBCg"
+  "code_hash": "fee6689b9bc41e63b33f9227702cabba316d4248f5a856aa76fe25fa76e11ef4",
+  "sig": "Z_UOLbsYet65JK6p4CCD61s8s2dVD8TOJEu6JljmMhtdnraDjcrZKiqnyeOo7sq1Av270y8sUQKNKbc9PaatCw"
 }
