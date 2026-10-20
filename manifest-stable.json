@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.17",
-  "build": 28,
-  "published_at": "2026-10-20 13:39",
-  "notes_th": "รุ่น 1.3.17 — เปิดไม่ขึ้นไม่เงียบอีกต่อไป\n\n- ถ้าเปิดโปรแกรมครั้งก่อนไม่สำเร็จ ครั้งถัดไปโปรแกรมจะส่งรายงานให้ผู้ขายเองอัตโนมัติ (ไม่ต้องทำอะไร)\n- ถ้าเปิดไม่สำเร็จติดกัน 2 ครั้ง จะเปิดแบบปลอดภัย และเปิดหน้าโปรแกรมในเบราว์เซอร์ให้ใช้งานได้ก่อน\n- ตัวติดตั้งรอให้โปรแกรมเดิมปิดสนิทก่อนเปลี่ยนไฟล์ (แก้ \"อัปเดตเสร็จแต่กดไอคอนแล้วเปิดไม่ขึ้น\")\n- ทุกอย่างอื่นเหมือนรุ่น 1.3.15: ปักตะกร้าตามคำถามลูกค้า · เสียงโคลน Gemini · ผู้ช่วยสั่งได้ทุกอย่าง · แก้หน้าค้าง/ภาพกระตุก/เสียงขาด",
+  "version": "1.3.18",
+  "build": 29,
+  "published_at": "2026-10-20 14:16",
+  "notes_th": "รุ่น 1.3.18\n\nใหม่\n- หน้าจอใหม่ \"หน้าเดียว 4 โซน\" เป็นหน้าหลักของทุกคน ทั้ง SenRerun และ SenLiveAi (อยากกลับหน้าเดิม: ⚙ › ระบบ › ใช้หน้าเดิม)\n- SenLiveAi: หน้าใหม่ครบ — ร่างดิจิทัล/พนักงานเสียงในหน้าเดียว · ค่าตั้งละเอียดของหน้าเดิมหาเจอใต้ ⚙ ทุกช่อง\n- เปิดไม่ขึ้นไม่เงียบอีก: ถ้าเปิดครั้งก่อนไม่สำเร็จ โปรแกรมส่งรายงานให้ผู้ขายเองอัตโนมัติ · ไม่สำเร็จติดกัน 2 ครั้ง = เปิดแบบปลอดภัยในเบราว์เซอร์ให้ใช้ได้ก่อน\n- ตัวติดตั้ง/อัปเดตรอให้โปรแกรมเดิมปิดสนิทก่อนเปลี่ยนไฟล์\n\nยังมีจากรุ่น 1.3.15: ปักตะกร้าตามคำถามลูกค้า · เสียงโคลน Gemini + โคลนในโปรแกรม · ผู้ช่วยสั่งได้ทุกอย่าง · แก้หน้าค้าง/ภาพกระตุก/เสียงขาด",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.17/SenLiveAi-Setup-1.3.17.exe",
-      "sha256": "fb9fd6e8b8c9e3fb8291c1b9bafaebbc235b0d16c7a9c3ff4b74cdc6e66c0da3",
-      "size": 144638921
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.18/SenLiveAi-Setup-1.3.18.exe",
+      "sha256": "b25efc6d563b46d0911d2c6d038314857e725a5eace7bdf892540a73417c4676",
+      "size": 144655866
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.17/SenRerun-Setup-1.3.17.exe",
-      "sha256": "38fedb6c91c03541956e421e59f4ba0f3c3747fb842ad5d604bf26ed5866e970",
-      "size": 139263578
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.18/SenRerun-Setup-1.3.18.exe",
+      "sha256": "c9dbf41541f4dba1030832bddc158427d95461b3121eb52db76946bbf0019ef0",
+      "size": 139303308
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.17/SenLiveAi-Patch-1.3.17.zip",
-      "sha256": "165ce9665508914f731756b33eb3aee8852458c1e5e528ddb5bbc5426bdec941",
-      "size": 13356118,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.18/SenLiveAi-Patch-1.3.18.zip",
+      "sha256": "6dd124fd07af065208039af735a3d03c049b31f90704a54644069ef77a5f26e6",
+      "size": 13393669,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "b4e729559b1bc6efdb8774366b143118561446f3146b627a9f5fedb6b882c10e",
-  "sig": "xs75-mTqmU3EFR0BOqnqF0QmnMD4lLbTS1w5Bn8PeXwXxp8KX4YgHbHvJ_SzbKba4ibW_UVHstQ7qNWFcN8uAw"
+  "code_hash": "2fbeea117f35d8be58b9826df4a70f8e8a1dd2b4c323282b9f90159c8ba20f8a",
+  "sig": "OS47VgczB3GkCQqaBWqn4QbZRL_8S-LbtN47EEZhyiFFbl7OSbsdnNuCOwZWQAnMa4d2Ga0eJCtFnVnQclIwCw"
 }
