@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.20",
-  "build": 31,
-  "published_at": "2026-10-20 15:56",
-  "notes_th": "รุ่น 1.3.20\n\nแก้ด่วน\n- กดปิดหน้าต่าง (X) แล้วกดไอคอนเปิดใหม่ ไม่ขึ้น → แก้แล้ว: กด X โปรแกรมปิดจริงภายในไม่กี่วินาที · กดไอคอนตอนโปรแกรมเดิมยังปิดไม่เสร็จหรือค้าง จะเปิดใหม่ให้เสมอ\n- กด X ระหว่างไลฟ์/ซ้อมไลฟ์ บนหน้าใหม่ → ขึ้นกล่องถาม \"ปิดโปรแกรมจริงไหม\" (เดิมกดแล้วไม่มีอะไรเกิดขึ้น)\n\nยังมีจากรุ่น 1.3.19: ชื่อใหม่ SenRerunAI · ไอคอนไม่ซ้อน",
+  "version": "1.3.21",
+  "build": 32,
+  "published_at": "2026-10-20 16:25",
+  "notes_th": "รุ่น 1.3.21\n\nแก้ด่วน (เปิดไม่ขึ้นหลังติดตั้ง/อัปเดต)\n- ตัวอัปเดตจะไม่ลงรุ่นเก่ากว่ารุ่นที่ใช้อยู่ทับอีก · ไฟล์อัปเดตเก่าที่ค้างอยู่ในเครื่องถูกล้างเองตอนเปิดโปรแกรม\n- ตัวติดตั้ง: ถ้าไฟล์ของโปรแกรมเดิมยังถูกใช้อยู่ จะหยุดก่อนเปลี่ยนอะไร (โปรแกรมเดิมใช้ต่อได้) แทนการติดตั้งครึ่งทางจนเปิดไม่ขึ้น\n- ตรวจความถูกต้องของไฟล์โปรแกรมไม่เตือนผิดอีก\n\nยังมีจากรุ่น 1.3.20: กด X ปิดจริง · กดไอคอนเปิดใหม่ได้เสมอ · ถามก่อนปิดตอนไลฟ์",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.20/SenLiveAi-Setup-1.3.20.exe",
-      "sha256": "23d3f9945339e5245c2bbc6c4464d37c060a9bac196ceaf2a85939f107a69823",
-      "size": 144661229
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.21/SenLiveAi-Setup-1.3.21.exe",
+      "sha256": "f9a08c243a4178fe322b33a365627ba207389ac60e3ba3d7b5a04645b5f7b6b0",
+      "size": 144665139
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.20/SenRerun-Setup-1.3.20.exe",
-      "sha256": "9167bcfeac1735fbf1feb14a79e20fc0921b42a4d1fa83cf49e8541fade4b656",
-      "size": 139303241
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.21/SenRerun-Setup-1.3.21.exe",
+      "sha256": "3d85af2d599791fcc5374b05c1c45bd76bb23485a80920deb4fe96429629638a",
+      "size": 139318554
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.20/SenLiveAi-Patch-1.3.20.zip",
-      "sha256": "b9a68abfbb5e168cd10ab8e47b5d4a150c45e05c1d4c853fc7be93756e447144",
-      "size": 13400732,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.21/SenLiveAi-Patch-1.3.21.zip",
+      "sha256": "86f58233af6e831216ecc5a6287cdb5b8104e4727dcbd13c3ef20c82b861fea4",
+      "size": 13408842,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "cfee25347ae4d946814a73df1acd63d45617e7c998c03770caf0f70153391ee6",
-  "sig": "ztSpAEf6NY0uDzwiUXr07Ii_5QGPIQy6f1iH5sBlnXchgvaBeYo_hfiYPsOS4a-W5vAiFA_It0KdzWFjUVCXBg"
+  "code_hash": "1f32b3369a3bc05f76afca2f25abd348dcf01b578dee4e077f53256a4f8ce7ad",
+  "sig": "vHwncc_UwqnDAGAIy0qn_DdRdz0a7OdxTSiTNFzmbfus20mCeguVbdFiBmuty0tDwl4JU--iqK8LMSykpRHjBg"
 }
