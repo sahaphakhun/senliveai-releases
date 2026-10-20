@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.22",
-  "build": 33,
-  "published_at": "2026-10-20 17:21",
-  "notes_th": "รุ่น 1.3.22\n\nภาพลื่นขึ้น\n- รีรันคลิป: ภาพไม่ตก/ไม่กระตุกแม้คลิป 1080p 60fps (อ่านภาพทีละเฟรม · เปิดคลิปถัดไปเฉพาะช่วงใกล้จบ · ภาพค้างต่อเนื่อง = ลด fps เองแล้วบอกทางแก้)\n- หน้าโปรแกรมไม่หน่วงตอนไลฟ์ (หน้า overview ไม่อ่านดิสก์ทุกครั้ง)\n- เตรียมคลิป: บอกความเร็ว/เวลาที่เหลือ · เสร็จกลางทางสลับไปใช้ทันที · เก็บแคชคลิปตามโควตา\n\nเสียง\n- ลำโพงฟังไม่ขาด/ไม่ข้ามเสียงตอนเครื่องยุ่ง\n- แก้ \"สร้างเสียงไม่ได้ทุกตัว\" ที่เกิดเมื่อประโยคเดียวกันถูกขอพร้อมกัน (และไม่สร้าง/คิดเงินซ้ำ)\n\nยังมีจากรุ่น 1.3.21: ไม่ลงรุ่นเก่าทับ · ตัวติดตั้งปลอดภัยเมื่อไฟล์ยังถูกใช้ · กด X ปิดจริง",
+  "version": "1.3.23",
+  "build": 34,
+  "published_at": "2026-10-20 19:14",
+  "notes_th": "รุ่น 1.3.23\n\nภาพลื่นขึ้นอีก (แก้ภาพสะดุดเป็นพัก ๆ บนเครื่องสเปกกลาง)\n- ภาพไม่สะดุดทุกครั้งที่โชว์เคสสลับสินค้า (คลังคำตอบไม่วนแย่งเครื่องตอน AI พูด)\n- การวัดภาพซ้ำย้ายไปทำเบื้องหลัง ไม่ทำให้ภาพหยุดรอ\n- โชว์เคสว่าง/ปุ่มพูด ใช้เครื่องน้อยลง\n- หน้าโปรแกรม (สถานะ/ภาพรวม) ไม่ค้างรอระหว่างเตรียมเสียงหรือต่อคลิป\n- การ์ดจอรุ่นประหยัด (≤7 GB) ที่ยังใช้ค่าโรงงาน 1080p: เริ่มที่คุณภาพ \"มาตรฐาน\" 720p ให้ภาพลื่น (เปลี่ยนกลับได้เองในตั้งค่า)\n\nยังมีจากรุ่น 1.3.22: รีรันคลิปลื่น · ลำโพงฟังไม่ขาด · เสียงไม่หายเมื่อขอพร้อมกัน · ไม่ลงรุ่นเก่าทับ · กด X ปิดจริง",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.22/SenLiveAi-Setup-1.3.22.exe",
-      "sha256": "581135189cf3da072214e8fc07e7c570cabb3fb14b23b3b333cf05edd7785797",
-      "size": 144730768
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.23/SenLiveAi-Setup-1.3.23.exe",
+      "sha256": "3ce2f2faaedadf427481b376280bb9e7f7653a0db6672a81b82b1c62cd627be5",
+      "size": 144739490
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.22/SenRerun-Setup-1.3.22.exe",
-      "sha256": "1ffb363d733326566b6bd377660c7af7db71bd28c90b5a3bfc235b49b86ecf27",
-      "size": 139365128
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.23/SenRerun-Setup-1.3.23.exe",
+      "sha256": "2f5c8c5d8fea8963c2f8159d34671b097ccbd6d03f1e1edfe85723536b6544e2",
+      "size": 139372302
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.22/SenLiveAi-Patch-1.3.22.zip",
-      "sha256": "97ddfa9aab55337565db4080905db79aa24d3cfb9c8ec29eb35de877c9ee4027",
-      "size": 13501938,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.23/SenLiveAi-Patch-1.3.23.zip",
+      "sha256": "f7d41c6eca39264476881fce0c2aa9dcf70914bac06e02c802778f149febe3a2",
+      "size": 13515802,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "9d63d3e18728ae5110c33383a9acee6399bc28a07f64d2d4329a33e62d5b7647",
-  "sig": "kZVMdyrAdTQn3-57cNdCag569IPWsFQArocb5cVrW35RtIcvTCJyGunH71CH-7zY9WPphnkMMof9n2JVZxZ6BQ"
+  "code_hash": "9497f4e406bf550d4cf7bf351d0bae4b3402f596e1824885e1579f7efe464bbf",
+  "sig": "YkMStONchFaWDWprxIMfNHpSvUBrd9lp5rcqcl_FGFuI8S57F5v7OQC9hHC8KTgzluu6xBapU3JgKiaCE5CJBg"
 }
