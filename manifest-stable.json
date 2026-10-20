@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.24",
-  "build": 35,
-  "published_at": "2026-10-20 21:29",
-  "notes_th": "SenRerunAI / SenLiveAi 1.3.24\n\n- แยกงานสร้างภาพรีรันออกจากหน้าโปรแกรม ช่วยให้ภาพเดินต่อเนื่องระหว่าง AI ตอบ และกู้ภาพกลับเมื่อโปรเซสภาพมีปัญหา\n- แก้การจัดการอุปกรณ์เสียงระหว่างรีเฟรช ไมค์หลุด และปิดโปรแกรม พร้อมแจ้งสาเหตุภาษาไทยและลองอุปกรณ์สำรอง\n- ปิดสตรีมฟังเสียงตัวอย่างและอ่านเข้าหูฟังให้ครบก่อนออกจากโปรแกรม พร้อมแสดงไมค์ที่อัดจริงและไม่ใช้ไมค์เสมือนแทนโดยอัตโนมัติ\n- ป้องกันเว็บไซต์อื่นส่งคำสั่งมาควบคุมโปรแกรมผ่าน API ในเครื่อง\n- หากไฟล์ตั้งค่าเสีย จะสำรองไฟล์เดิมก่อนเริ่มด้วยค่าเริ่มต้นของรุ่นนั้น\n- ปุ่มใส่คีย์ในการ์ดเสียงเปิดหน้าตั้งค่าคีย์ได้ตรงจุด และเมื่อปิด AI ตัวช่วยเริ่มต้นจะไม่บังคับใส่คีย์ Gemini หรือข้อมูลสินค้า\n- หน้าเริ่มต้นไม่ค้างเมื่อข้อมูลยังมาไม่ครบ และย้ายการเปิดใช้งานมาเครื่องนี้ได้ด้วยคีย์หรือรหัสคำสั่งซื้อ\n- ตัวติดตั้งจะไม่บังคับปิดโปรแกรมเมื่อตรวจสถานะไลฟ์ไม่ได้ ปรับปรุงการเตรียมตัวติดตั้งสำหรับย้อนกลับรุ่น และเก็บเครื่องมือเก็บข้อมูลซัพพอร์ตไว้หลังอัปเดตแพตช์\n- ปิด–เปิด AI หรือหยุด–เริ่มงานแล้วจะไม่พูดคำตอบค้างจากรอบก่อน และตรวจคีย์ได้โดยไม่ทำให้หน้าโปรแกรมค้าง",
+  "version": "1.3.25",
+  "build": 36,
+  "published_at": "2026-10-21 00:06",
+  "notes_th": "SenRerunAI / SenLiveAi 1.3.25\n\n- เมื่อเปิด SenRerunAI รุ่นอัปเดต โปรแกรมตั้งโหมดปักสินค้าตามคำถามเป็นอัตโนมัติให้ทั้งเครื่องใหม่และเครื่องเดิม เมื่อล็อกอิน TikTok เปิดหน้าตัวจัดการ LIVE และสินค้าในตะกร้าพร้อม\n- เครื่องเดิมจะสำรองไฟล์ตั้งค่าก่อนปรับครั้งเดียว หลังจากนั้นลูกค้าปิดหรือเปลี่ยนเป็นโหมดยืนยันเองได้ และโปรแกรมจำค่าที่เลือกไว้\n- คงค่าเสียง ภาพ และการส่งแชทที่ลูกค้าเคยเลือกไว้ สิทธิ์ปักตามคำถามแยกจากสิทธิ์ส่งข้อความ\n- แก้การเปลี่ยนเป็นโหมดปักอัตโนมัติหลังมีคำถาม ให้ลองปักสินค้าที่กำลังโฟกัสอยู่หากยังไม่หมดช่วงโฟกัส และตรวจการปิดโหมดหรือหยุดงานอีกครั้งก่อนส่งคำสั่งที่รออยู่\n- แก้เลขสินค้าในหน้าโปรแกรมให้ตรงกับการจับคำถาม เช่น “ตะกร้า 3” แม้เลขภายในไม่ต่อเนื่องหรือมีสินค้าอื่นปักอยู่",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.24/SenLiveAi-Setup-1.3.24.exe",
-      "sha256": "d328fe4a5f8ba39e4085fd68007d89bdc3bd309f2bc3ae2e8a587384ed1d0b10",
-      "size": 145279152
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.25/SenLiveAi-Setup-1.3.25.exe",
+      "sha256": "cff9c34ea6bb566a0400d0420ea2cd9c7030883ad1bd072aee38960c9a6ed3da",
+      "size": 145293388
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.24/SenRerun-Setup-1.3.24.exe",
-      "sha256": "37f2d90b8add369790808a8ef3ca48c62ec85628b6ec977881756b212ccfd472",
-      "size": 139907833
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.25/SenRerun-Setup-1.3.25.exe",
+      "sha256": "3c77735ca7ca4a0e98d2efb4f3b189d30f6a456e2286f62b266405ad5117c2db",
+      "size": 139924470
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.24/SenLiveAi-Patch-1.3.24.zip",
-      "sha256": "8adb52d8378a0aa76c2872d3d56e53fe97e4d978916a7dc3959d6c485e1a9a0f",
-      "size": 13759113,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.25/SenLiveAi-Patch-1.3.25.zip",
+      "sha256": "9bca8f953e1760166d287f1863572bb6ead05aa4fc0805efc937e7918fc5f984",
+      "size": 13772875,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "13bd45e85ef0d98dc0790d2878310f73d31e083b609bcea51574aabdcea9ee2a",
-  "sig": "Mp6RubJCt9dUbvRKJ87JmTvwrqb31UB2b9HbGi-72jHEe3Dh4HbYiuOwykc9HUq4t33avilR6vDJYgKaP-9eBg"
+  "code_hash": "24ff4ce9a905643f125528a06430b8575344c4aab80a1dfd6f93eaa31222b03a",
+  "sig": "cKY1aiztTuPzmZTd_zQMT0SlZlMwiMXV6qBAuH-e-90ap5U6WdS4rE2dqfa1w-WIA0OjFJwDEXp_lKh0VyM8CQ"
 }
