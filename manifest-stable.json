@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.29",
-  "build": 40,
-  "published_at": "2026-10-21 19:41",
-  "notes_th": "SenRerunAI 1.3.29\n\n- เพิ่มผู้ช่วยสั่งงานผ่านแชตใน SenRerunAI และเปิดใช้เป็นค่าเริ่มต้น\n- ดูข้อมูลและเสนอแก้ค่าที่รองรับ โดยแสดงรายละเอียดให้ยืนยันก่อนเปลี่ยนข้อมูล\n- ย้อนกลับงานที่รองรับผ่านการยืนยันแยก พร้อมป้องกันการ์ดเก่าเขียนทับข้อมูลใหม่\n- ติดตามงานเบื้องหลัง ขอหยุดงาน และรอทำงานที่ต้องเลื่อนไปหลังจบไลฟ์\n- เลือกไฟล์นำเข้าและดาวน์โหลดชุดสินค้าได้จากแชต\n- แก้การส่งสถานะยกเลิกจากคิว Gemini ให้แสดงผลตรงกับงานที่หยุดจริง\n\nSenLiveAi คงแชตเดิมเป็นค่าเริ่มต้นในรุ่นนี้",
+  "version": "1.3.30",
+  "build": 41,
+  "published_at": "2026-10-21 20:25",
+  "notes_th": "SenLiveAi / SenRerunAI 1.3.30\n\n- เพิ่มการป้องกันตอนเปิดพนักงานมีหน้าบนการ์ดจอหน่วยความจำน้อย เช่น RTX 2060 6 GB\n- ใช้โหมดประหยัดการ์ดจอ และเลื่อนการสร้างตัวเร่ง TensorRT ไปเตรียมตอนที่เหมาะสม\n- หากโปรเซสร่างดับก่อนขึ้นภาพซ้ำ โปรแกรมเปลี่ยนเป็นพนักงานเสียงพร้อมบอกเหตุผล และลองเปิดหน้าใหม่ได้\n- เพิ่มบันทึกขั้นตอนเปิดพนักงานเพื่อช่วยตรวจปัญหาจากเครื่องลูกค้า\n- SenRerunAI คงผู้ช่วยสั่งงานผ่านแชตที่เปิดใช้เป็นค่าเริ่มต้นจากรุ่น 1.3.29",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.29/SenLiveAi-Setup-1.3.29.exe",
-      "sha256": "a3882d32333208b329ce9128d2b06d1fd431722611e41e0c2aff48aeb57082b1",
-      "size": 147993094
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.30/SenLiveAi-Setup-1.3.30.exe",
+      "sha256": "c6d27e99ef026afb04d8ff91e6954df6d4fdc924f5ad81f13506f70709931914",
+      "size": 148059792
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.29/SenRerun-Setup-1.3.29.exe",
-      "sha256": "d7987280c7e558435ae2f3bbed7648d277b6afecbf68701bb652cf89eab19f5b",
-      "size": 145626999
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.30/SenRerun-Setup-1.3.30.exe",
+      "sha256": "79b417e354d9fdc0a8238b9047cbf2abf525ed55d2e9d5ed41d391819d27d0dd",
+      "size": 145683747
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.29/SenLiveAi-Patch-1.3.29.zip",
-      "sha256": "a212bc0a208b719b230e68668608ad903c9172b3d328d5fd5a7fb60456e8005b",
-      "size": 15203705,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.30/SenLiveAi-Patch-1.3.30.zip",
+      "sha256": "049ea54fa3fc99b72cd02dcf08cb45250d3e3a7a80c9a6d136c4d2047ff441a9",
+      "size": 15294901,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "cf29b38b81c917b3b06e1fbb4fa95896bf2594f9def6e9a64b3839f3c43f6ecf",
-  "sig": "___-G68IBV0qdBtaNLeEK2teFHt93RZEVZU19T2o-_D91xBDxW3d3CK5FQ3dsaGDiCTgMaJnBK_XiDgGMY6DCQ"
+  "code_hash": "704cf42cba9fa2bbdcdbbe35f536d637cfbc2d295d9e5ef487427649d2f48b8a",
+  "sig": "MuwdbGkFQUfbH8L9kAvQhTTEts8RgCDJ7rt66Pkmhvcv-eTH4ZgMezvIr9Wii6qtbH8lBek6MVzVqkZLD3_nCQ"
 }
