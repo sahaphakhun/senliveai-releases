@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.25",
-  "build": 36,
-  "published_at": "2026-10-21 00:06",
-  "notes_th": "SenRerunAI / SenLiveAi 1.3.25\n\n- เมื่อเปิด SenRerunAI รุ่นอัปเดต โปรแกรมตั้งโหมดปักสินค้าตามคำถามเป็นอัตโนมัติให้ทั้งเครื่องใหม่และเครื่องเดิม เมื่อล็อกอิน TikTok เปิดหน้าตัวจัดการ LIVE และสินค้าในตะกร้าพร้อม\n- เครื่องเดิมจะสำรองไฟล์ตั้งค่าก่อนปรับครั้งเดียว หลังจากนั้นลูกค้าปิดหรือเปลี่ยนเป็นโหมดยืนยันเองได้ และโปรแกรมจำค่าที่เลือกไว้\n- คงค่าเสียง ภาพ และการส่งแชทที่ลูกค้าเคยเลือกไว้ สิทธิ์ปักตามคำถามแยกจากสิทธิ์ส่งข้อความ\n- แก้การเปลี่ยนเป็นโหมดปักอัตโนมัติหลังมีคำถาม ให้ลองปักสินค้าที่กำลังโฟกัสอยู่หากยังไม่หมดช่วงโฟกัส และตรวจการปิดโหมดหรือหยุดงานอีกครั้งก่อนส่งคำสั่งที่รออยู่\n- แก้เลขสินค้าในหน้าโปรแกรมให้ตรงกับการจับคำถาม เช่น “ตะกร้า 3” แม้เลขภายในไม่ต่อเนื่องหรือมีสินค้าอื่นปักอยู่",
+  "version": "1.3.26",
+  "build": 37,
+  "published_at": "2026-10-21 07:43",
+  "notes_th": "SenLiveAi / SenRerunAI 1.3.26 บิลด์ 37\n\n- เพิ่มโหมดประหยัดโทเคน “เตรียมเสียงก่อนเริ่มไลฟ์” สร้างเฉพาะเสียงที่ยังขาด พร้อมประมาณการก่อนสร้าง และยังตอบคำถามใหม่หรือสร้างเสียงสดได้เมื่อจำเป็น\n- ป้องกันเสียงตัวอย่างซ้อนเมื่อกดฟังซ้ำหรือสลับเสียง โดยรอปิดตัวเล่นเดิมก่อนเริ่มเสียงใหม่\n- ปรับคำลงท้าย “ค่ะ/คะ/ครับ” ตามเสียง AI ที่เลือก รองรับเสียงฟรี Windows Gemini และ ElevenLabs ที่มีข้อมูลเพศเสียง\n- เพิ่มตัวเลือกคำลงท้ายใน เสียง AI → ปรับแต่ง สำหรับเสียงโคลนหรือเสียงที่ไม่มีข้อมูลเพศ\n- เมื่อเปลี่ยนคำลงท้าย ระบบให้ฟังยืนยันชุดเสียงที่เตรียมใหม่ และรักษาชื่อสินค้า เช่น “โยคะ” รวมถึงพจนานุกรมคำอ่านเดิม\n- แก้หน่วยเวลาช่วงโฟกัสสินค้าให้แสดงเป็นวินาทีตรงกับค่าที่ใช้จริง",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.25/SenLiveAi-Setup-1.3.25.exe",
-      "sha256": "cff9c34ea6bb566a0400d0420ea2cd9c7030883ad1bd072aee38960c9a6ed3da",
-      "size": 145293388
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.26/SenLiveAi-Setup-1.3.26.exe",
+      "sha256": "442b630e8a95b43a1f7c158266d76cad94979d9f42455facf0c4bf63490b4a53",
+      "size": 145300799
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.25/SenRerun-Setup-1.3.25.exe",
-      "sha256": "3c77735ca7ca4a0e98d2efb4f3b189d30f6a456e2286f62b266405ad5117c2db",
-      "size": 139924470
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.26/SenRerun-Setup-1.3.26.exe",
+      "sha256": "faf228fbb2110ad8d5e5158bf82de485c39844d1de4eb0cddafeba6c75266026",
+      "size": 139933507
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.25/SenLiveAi-Patch-1.3.25.zip",
-      "sha256": "9bca8f953e1760166d287f1863572bb6ead05aa4fc0805efc937e7918fc5f984",
-      "size": 13772875,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.26/SenLiveAi-Patch-1.3.26.zip",
+      "sha256": "4530beedead757bcf6951399b1e5f0b705f50e038e8dbba3744a9e95e3e1a5c2",
+      "size": 13788738,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "24ff4ce9a905643f125528a06430b8575344c4aab80a1dfd6f93eaa31222b03a",
-  "sig": "cKY1aiztTuPzmZTd_zQMT0SlZlMwiMXV6qBAuH-e-90ap5U6WdS4rE2dqfa1w-WIA0OjFJwDEXp_lKh0VyM8CQ"
+  "code_hash": "655f7c4cc971b38935d7de43d8c6b66bef3549293dbe139188c25c62563570c5",
+  "sig": "eseWVwxuBLTNkNjTHxU0d8_ZlKadHlZBRM_anCBZOk4h0ziCsVi1phG_B_a2qkJlidWECpkxsuEuCvpsFsa1AA"
 }
