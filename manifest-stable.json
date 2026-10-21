@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.27",
-  "build": 38,
-  "published_at": "2026-10-21 16:43",
-  "notes_th": "SenLiveAi / SenRerunAI 1.3.27 — บิลด์ 38\n\n• ปรับข้อมูลสีของภาพรีรันให้ตรงกับภาพต้นทางในการส่งไลฟ์\n• ระดับ “คมชัด” ส่ง 1080p 30 fps ที่ 7.6 Mbps พร้อมคำแนะนำเน็ตอัปโหลดอย่างน้อย 10 Mbps\n• คงค่าที่ลูกค้าตั้งไว้เดิม หากต้องการ 7.6 Mbps ให้เลือกระดับ “คมชัด” อีกครั้ง\n• แก้ราคาที่มีหน่วยหรือเป็นข้อความอยู่แล้วไม่เติม “บาท” ซ้ำ\n• ป้ายเสียงสำรองแสดงเหตุและรหัส HTTP เช่น 429 แม้เสียงสำรองสร้างสำเร็จ",
+  "version": "1.3.28",
+  "build": 39,
+  "published_at": "2026-10-21 19:06",
+  "notes_th": "- รวมคำขอ Gemini ไว้ในคิวเดียวต่อคีย์และโมเดล ลดการยิงพร้อมกันจากคำตอบสด การเตรียมบทและเสียง เมื่อ Google ส่งข้อมูลโปรเจกต์กลับมาจะใช้ขีดจำกัดร่วมของโปรเจกต์นั้น\n- เมื่อเจอ 429 เก็บงานไว้และรอตามเวลาที่ Google แจ้ง เรียนรู้ขีดจำกัดต่อนาทีจากข้อผิดพลาด และให้คำตอบสดมาก่อนงานเตรียมล่วงหน้า โดยยังเก็บงานเตรียมไว้ครบ\n- รวมคำขอที่เหมือนกันและใช้ผลสำเร็จล่าสุดซ้ำ ลดการเสียโทเคนซ้ำ เลือกโมเดล Gemini ที่รองรับชั่วคราวเมื่อโมเดลหลักติดโควต้า แล้วกลับมาใช้โมเดลหลักเมื่อพร้อม\n- แสดงสถานะภาษาไทยพร้อมชื่อโมเดล แยกโควต้าต่อนาที ต่อวัน โควต้าเป็นศูนย์ คีย์และ Billing การเลือก Gemini จะไม่สลับผู้ช่วยไป Claude เอง\n- บอกวิธีแก้เป็นภาษาไทยแยกตามเหตุจาก Google: ยังไม่เปิด Billing, ไม่มีโควต้า, คีย์ผิดหรือไม่มีสิทธิ์, ภูมิภาคไม่รองรับ และโควต้ารายวันเต็ม\n- เมื่อจำนวนเสียงในโปรเจกต์เต็ม ให้ลบเสียงเก่าที่ไม่ใช้ แทนการบอกให้รอแล้วกดซ้ำ\n- การแปลงไฟล์เสียงที่อัปโหลดเพื่อโคลนรอจนเสร็จ ไม่ตัดงานที่ยังทำงานอยู่เพราะเกิน 60 วินาที\n- บันทึกชนิดและรหัสข้อผิดพลาดพร้อมคำแนะนำ โดยไม่บันทึกข้อความดิบที่อาจมีคีย์หรือข้อมูลส่วนตัว",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.27/SenLiveAi-Setup-1.3.27.exe",
-      "sha256": "0e80a8ae03768d5849e5327097f2209f993870535e00775842b25ec4eb80b90f",
-      "size": 145072508
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.28/SenLiveAi-Setup-1.3.28.exe",
+      "sha256": "3bce41a67ef84fe359edc99da5ac73d47cd8e23c9c2b127d2357535afc51428a",
+      "size": 147186432
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.27/SenRerun-Setup-1.3.27.exe",
-      "sha256": "f9b8d41912b25d436504b8363d26c264a3d3724555f41ebfa17e3dfe6ca756a0",
-      "size": 142711008
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.28/SenRerun-Setup-1.3.28.exe",
+      "sha256": "4c659f6b242f8799812a64ef46f0d3d9bf9eb6dabc687d838ea0183f27acd8ba",
+      "size": 144812569
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.27/SenLiveAi-Patch-1.3.27.zip",
-      "sha256": "ae9c69b1edbaae444b9fe2de8cc99f216430b7770d2f5c60045a88ae25e3b1db",
-      "size": 13798388,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.28/SenLiveAi-Patch-1.3.28.zip",
+      "sha256": "162b73141a5cfbfbb93bf8cde5cc3ed29f4b4885617c2ee855d1acfe00b73602",
+      "size": 13915246,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "1f10985852517afcc7431c3ff08bb85047c0c8fe580717439b3dc1b986964365",
-  "sig": "xhmAkiJfLGJmbp3fc2movvjA-oyLNo5W2FJMliOfoGGA7wjI65sU8JYysgcF3IKpXsH4xDHotXXRiR3J4QNHCA"
+  "code_hash": "a5afec28daa1e1e0774d65e124ecb144b7dd382d1d23e77f136f9ac83e9a1c1b",
+  "sig": "ZfAVaCTPwaG5p77J5abtcHjOeKovRyJAO34_bovrKXPLQL17njKqD28ylqVPg_VBeLkC8FHaX97349WVzCZfBA"
 }
