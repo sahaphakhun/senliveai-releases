@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.3.31",
-  "build": 42,
-  "published_at": "2026-10-21 22:44",
-  "notes_th": "SenLiveAi / SenRerunAI 1.3.31\n\nปรับพนักงาน AI ใน SenLiveAi ที่มีใบอนุญาต: เมื่อเปิดพนักงานมีหน้าไม่สำเร็จจะแสดงสาเหตุและให้ลองใหม่\nปรับข้อความและตัวเลือกพนักงานในตัวติดตั้งและหน้าตั้งค่าให้ตรงกับการใช้งาน",
+  "version": "1.3.32",
+  "build": 43,
+  "published_at": "2026-10-22 08:39",
+  "notes_th": "SenLiveAi / SenRerunAI 1.3.32\n\nเพิ่ม Kalodata สำหรับลูกค้าที่ชำระเงิน ใช้ API key ของลูกค้าเอง\nค้นหาสินค้า ดูตารางและรูปสินค้า และเพิ่มสินค้าเข้าตะกร้าไลฟ์โดยยืนยันก่อนดำเนินการ\nคงการปรับปรุงพนักงาน AI และการแสดงสถานะจาก 1.3.31",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.31/SenLiveAi-Setup-1.3.31.exe",
-      "sha256": "09e8201c6b9492975913c557460a3ba1049e2547605548193ac5b9e4963b7406",
-      "size": 148058196
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.32/SenLiveAi-Setup-1.3.32.exe",
+      "sha256": "9ff3d45dd5b3d26b2685b29a9713afb9f13f3ad174dbda0eba6d8db94e3aee1d",
+      "size": 148336235
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.31/SenRerun-Setup-1.3.31.exe",
-      "sha256": "93d77207637167fe607eba67c1d846943f7dc47fec4dfcd26ef40721a74a1a5a",
-      "size": 145686915
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.32/SenRerun-Setup-1.3.32.exe",
+      "sha256": "6e88c703c178b01da37c7d2ce816c13b9a600770abf96a44d60caae6c77c6cde",
+      "size": 145980169
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.31/SenLiveAi-Patch-1.3.31.zip",
-      "sha256": "6084586b3430fff0b5ddbaffcb7a521eed8aa37d0b65148f39c48008eb15ee3f",
-      "size": 15302498,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.3.32/SenLiveAi-Patch-1.3.32.zip",
+      "sha256": "cac6e28630b52f49917c721db725b57c758bcc2f33529f6f32a4cfb6fdb015d1",
+      "size": 15739785,
       "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "25908f8cd29a9a88259f0d4222bafa1110a4b810ca901fa09e80a12b79bd9fbc",
-  "sig": "xsJFUX8uAMbv_w4wpHNN17a6Pu2hD6n667eM95ykZ9vD9ETP7P-NMAe63RzqYxgnFMKPcyKpAYm6qIVyMqt2Cw"
+  "code_hash": "57fb42e29db9515afea472c5222cab8faedacf5b0b172db16f3987444a1d63af",
+  "sig": "V8W1lkhoMrMXT6tpQvMfuvyq0DzxpfW9tmRInlwbdcLOwdU7YNfqir-MIJjYHxLWINGca7V9ZGw9EaPI6JD2CQ"
 }
