@@ -1,23 +1,23 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.2",
-  "build": 50,
-  "published_at": "2026-10-26 17:39",
-  "notes_th": "แสดงรูปสินค้าในแผงตะกร้าหน้าไลฟ์\nSenRerunAI: จอหน้าไลฟ์แสดงภาพเดียวกับที่คนดูเห็น (ลบฉากเขียว + ฉากหลังแล้ว)\nSenRerunAI: ปรับลบฉากเขียวด้วยแถบเลื่อนในแท็บฉาก เห็นภาพเปลี่ยนทันที",
+  "version": "1.4.3",
+  "build": 51,
+  "published_at": "2026-10-26 22:23",
+  "notes_th": "แก้ตัวอ่านแชทและหน้าต่าง TikTok ที่เปิดไม่ขึ้น ปรับการตรวจ Gemini ให้ลองสร้างคำตอบจริง แก้ตัวเฝ้าเสียงและการพิมพ์ตอบระหว่างซ้อม เพิ่มสวิตช์ทักทายและขอบคุณคนในแชท เปิดเป็นค่าเริ่มต้น และบอกเหตุผลของปุ่มที่ล็อกระหว่างไลฟ์",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.2/SenLiveAi-Setup-1.4.2.exe",
-      "sha256": "efbc25fd0e16d24446a18ccc58e7491074423b4958960b9fd9f1cde90ff20395",
-      "size": 153564750
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.3/SenLiveAi-Setup-1.4.3.exe",
+      "sha256": "3f7eb4d0ce760bde32df408b2456249664146c63dd3333c900be7c73fc5177ce",
+      "size": 150192719
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.2/SenRerun-Setup-1.4.2.exe",
-      "sha256": "93e3c6852f5e4eb82a0cf33ed278ef02ba91ae96df86bb9f6efc9400db550fe1",
-      "size": 151186692
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.3/SenRerun-Setup-1.4.3.exe",
+      "sha256": "7a0973909c0212bf0d11589650229e00c06899b19140866e61a6bc119f3761d6",
+      "size": 148892617
     }
   },
   "mandatory": false,
-  "code_hash": "25fcc22bd468aeb466597391c4610b96cbbb75d9ed973b7a027bb5598c0c1a46",
-  "sig": "0mgX3WqI-hCB_FOKLdwxIYFQY1fk3Yw_nCQJVoloBBcXTYJ-LMaj-Jej6CfNS7Y84yeQuJmc9GKOz0lX57BjBQ"
+  "code_hash": "513e85119ed0d94acf30a654e91ead2663a666fc60f03dcf21d645e31908da3c",
+  "sig": "jwoK1cjr-tPVxNikYcfV-PWWtQqG90Nm0lawlB3ty0gUbtbihcjvNbcJLqjlXS7TBTXykgaxnHGPza0VPViUAQ"
 }
