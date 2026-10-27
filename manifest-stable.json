@@ -1,23 +1,23 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.4",
-  "build": 52,
-  "published_at": "2026-10-27 17:25",
-  "notes_th": "แก้ปัญหา SenRerunAI ไม่พูดแนะนำสินค้าเมื่อสลับตะกร้า และเมื่อกลับตะกร้าหลัก",
+  "version": "1.4.5",
+  "build": 53,
+  "published_at": "2026-10-27 19:01",
+  "notes_th": "SenRerunAI / SenLiveAi 1.4.5\n\n- แก้อัปเดตจากในโปรแกรมแล้วกลับมาเป็นรุ่นเดิม ในกรณีโปรแกรมเก่ายังปิดตัวไม่เสร็จ\n- ตัวติดตั้งรอให้ไฟล์พร้อมก่อนติดตั้ง โดยไม่ฆ่างานที่ยังทำอยู่\n- ระหว่างรอสามารถกดยกเลิกอัปเดตได้ โดยยังไม่เปลี่ยนไฟล์หรือข้อมูลเดิม\n- รวมการแก้เสียงแนะนำสินค้าเมื่อเปลี่ยนตะกร้าและกลับตะกร้าหลักจากรุ่น 1.4.4",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.4/SenLiveAi-Setup-1.4.4.exe",
-      "sha256": "06a65ad22c5911711ceceac458904d34c993fdd69f74d8620adfcc38270380be",
-      "size": 151264494
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.5/SenLiveAi-Setup-1.4.5.exe",
+      "sha256": "69d138e5796c94b4875399ecd105ddd9494393807a5aad51079d036138250999",
+      "size": 151273315
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.4/SenRerun-Setup-1.4.4.exe",
-      "sha256": "094d31e6b31672c3f267075f0dcb1295b0f681a03e11f7b4aba7f073b01d6ced",
-      "size": 148885612
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.5/SenRerun-Setup-1.4.5.exe",
+      "sha256": "5b75c3684c263aff0a3455ecbf60741a9b3502b6068c9937ccbe07b754ca1808",
+      "size": 148894294
     }
   },
   "mandatory": false,
-  "code_hash": "087c3b74af70ad215fad3416705a9f3e5a2e8628c6bf1d6eb7fd359c0454ebfc",
-  "sig": "6_77B6KaqCMWhpu2-ul2V7qZ0erHEG_Xn2Ciwu92cAxviNja7xQCr_OKrPsV_GKrsucoynxugB8H9Mf0YsKRDw"
+  "code_hash": "c3071f2a9915ba8ef8628f6a2458493ad7795bf9fb465edaa51beeafb53e7026",
+  "sig": "bZGiCv1bayKx8moD-oowKCMA_FP079boSggmLCGc8HDDA0mKZQoY-ChkgrgMxJJpGiJ5gozsm4Z1Y3J-lbpLDA"
 }
