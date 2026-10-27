@@ -1,23 +1,23 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.5",
-  "build": 53,
-  "published_at": "2026-10-27 19:01",
-  "notes_th": "SenRerunAI / SenLiveAi 1.4.5\n\n- แก้อัปเดตจากในโปรแกรมแล้วกลับมาเป็นรุ่นเดิม ในกรณีโปรแกรมเก่ายังปิดตัวไม่เสร็จ\n- ตัวติดตั้งรอให้ไฟล์พร้อมก่อนติดตั้ง โดยไม่ฆ่างานที่ยังทำอยู่\n- ระหว่างรอสามารถกดยกเลิกอัปเดตได้ โดยยังไม่เปลี่ยนไฟล์หรือข้อมูลเดิม\n- รวมการแก้เสียงแนะนำสินค้าเมื่อเปลี่ยนตะกร้าและกลับตะกร้าหลักจากรุ่น 1.4.4",
+  "version": "1.4.6",
+  "build": 54,
+  "published_at": "2026-10-27 23:20",
+  "notes_th": "SenRerunAI / SenLiveAi 1.4.6\n\n- วิดีโอพรีวิวยังเล่นก่อนกดขึ้นไลฟ์ได้ และยังเลือกดูภาพจริงพร้อมฉากได้\n- คืนทรัพยากรเมื่อกลับไปพรีวิวคลิปก่อนเริ่มไลฟ์ และพักพรีวิวเมื่อซ่อนหน้าต่าง โดยไลฟ์ยังเดินต่อ\n- มีตัวเล่นสำรองสำหรับคลิปที่เบราว์เซอร์เปิดไม่ได้\n- ลดงานวิดีโอซ้ำระหว่างเล่นรีรันและเตรียมคลิป พร้อมแบ่งกำลังเครื่องให้งานเตรียมคลิปเบื้องหลัง\n\nรุ่นนี้ไม่ได้เปลี่ยนสเปกขั้นต่ำ และยังไม่มีผลรับรองการใช้งานบนเครื่อง i5 กราฟิกในตัว RAM 16GB ของลูกค้า",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.5/SenLiveAi-Setup-1.4.5.exe",
-      "sha256": "69d138e5796c94b4875399ecd105ddd9494393807a5aad51079d036138250999",
-      "size": 151273315
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.6/SenLiveAi-Setup-1.4.6.exe",
+      "sha256": "d164992721b6dff1658580f6d7b34bcd600d8090b6391d559041a208850a6f4b",
+      "size": 150039983
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.5/SenRerun-Setup-1.4.5.exe",
-      "sha256": "5b75c3684c263aff0a3455ecbf60741a9b3502b6068c9937ccbe07b754ca1808",
-      "size": 148894294
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.6/SenRerun-Setup-1.4.6.exe",
+      "sha256": "720cc208ba8abff5af21163ac2a970aef69c7db28f9db12f8ee080847787f004",
+      "size": 144680611
     }
   },
   "mandatory": false,
-  "code_hash": "c3071f2a9915ba8ef8628f6a2458493ad7795bf9fb465edaa51beeafb53e7026",
-  "sig": "bZGiCv1bayKx8moD-oowKCMA_FP079boSggmLCGc8HDDA0mKZQoY-ChkgrgMxJJpGiJ5gozsm4Z1Y3J-lbpLDA"
+  "code_hash": "3233565e63a33e22e3cf5f72b6e8f61ecbda1b45d99a5202e3f706f22c387a9a",
+  "sig": "vifJJ0z2mDy6HNHlul5CQx41Zoqmf_NQh5LVvX9bkkg6Ki_u2HAobXztcFWyQ0hcmAYtPET1-TQY2SRStqd1Ag"
 }
