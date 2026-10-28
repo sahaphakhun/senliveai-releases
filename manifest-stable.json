@@ -1,23 +1,23 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.9",
-  "build": 57,
-  "published_at": "2026-10-28 11:43",
-  "notes_th": "- แก้ภาพรีรันหยุดหลังโปรเซสภาพล้มซ้ำ ให้กลับมาเล่นต่อได้\n- แก้ผู้ช่วยขอให้ตรวจความพร้อมซ้ำ ทั้งที่ตรวจแล้ว",
+  "version": "1.4.8",
+  "build": 56,
+  "published_at": "2026-10-28 09:10",
+  "notes_th": "# 1.4.8 — ส่งข้อมูลตรวจสอบและติดตามปัญหา\n\n- ปุ่ม “ส่งข้อมูลตรวจสอบตอนนี้” บนแถบหัวหน้าใช้งาน ส่งเบื้องหลังและแสดงรหัสหลังทีมได้รับจริง\n- เปิดส่งสรุปทุกชั่วโมงและรายงานข้อผิดพลาดอัตโนมัติได้จากข้อความแจ้งครั้งแรก หรือสวิตช์ในแผงตรวจสอบ\n- เมื่อเชื่อมต่อไม่ได้ เก็บคิวไว้ในเครื่อง ลองส่งใหม่โดยไม่สร้างรายงานซ้ำ ปิดโปรแกรมแล้วเปิดใหม่ส่งต่อได้\n- รายงานเป็นข้อมูลทางเทคนิคและตัวนับ ไม่มีข้อความผู้ชม คุกกี้ รหัสผ่าน API key หรือไฟล์วิดีโอ\n- เพิ่มเหตุขัดข้องของ WebView2 เพื่อช่วยตรวจกรณีเปิด TikTok ภายในโปรแกรมไม่ได้\n- ระบบรับรายงานและคลังไฟล์แยกจากบริการลิขสิทธิ์ พร้อมค้นรหัส/เครื่อง/ลิขสิทธิ์/รุ่น และบันทึกรุ่นที่แก้ไข\n- ใช้บิลด์ Native 28 เธรดพร้อม cache ที่ตรวจจากงานปรับความเร็ว\n\n## ขอบเขต\n\nต้องเปิดโปรแกรมและยินยอมส่งอัตโนมัติจึงจะมีรายงานประจำชั่วโมง ไม่ถือว่าการไม่มีรายงานคือเครื่องไม่มีปัญหา\nรายงานชั่วโมงเก็บ 30 วัน รายงานเหตุ/กดส่งเก็บ 90 วัน เคสกำลังตรวจเก็บได้ถึง 1 ปี\nคิวในเครื่องมีงบ 20 MiB เมื่อเต็มจะรวม/ลบสรุปชั่วโมงเก่าและบันทึกจำนวนที่ขาดก่อน รายงานกดส่งไม่ถูกลบทิ้งเงียบ ๆ\nการทดสอบสังเคราะห์ไม่แทนหลักฐานว่าแก้ปัญหาเครือข่ายบนเครื่องลูกค้ารายเดิมแล้ว",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.9/SenLiveAi-Setup-1.4.9.exe",
-      "sha256": "18adbe2c518379d44084813e37bffe089b7d382f160dd7fb3970042ae20f43f5",
-      "size": 151968995
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.8/SenLiveAi-Setup-1.4.8.exe",
+      "sha256": "df5091053e1863a85d0d16e92be0fa8749332991bc6788dac989c3f094e9e689",
+      "size": 150881875
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.9/SenRerun-Setup-1.4.9.exe",
-      "sha256": "865031c1714bd3535e8ad05c4dc20f2664c1ea58882d36f17f72957111a2812b",
-      "size": 146590306
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.8/SenRerun-Setup-1.4.8.exe",
+      "sha256": "3ca1db139f73745fef429c54f519c7f71e123c0f9a45bbef79e0e17d4131b4f4",
+      "size": 145333163
     }
   },
   "mandatory": false,
-  "code_hash": "cdf1cabec7e4d8f16041f4374088d97b28ec70654d67e0e6b49bd435632c3894",
-  "sig": "IWz3gZF9Wsuf1tYkzB0gQpdurc1pXV4WPseRno1oL5zKyPvwnf0214AfrLw9cczztk4hI1C6uaLTGVemKquZCA"
+  "code_hash": "4a08befbee8ac41197fc1ddfdf5b55585501b1276b0b0aba616af12fb4dc1c1c",
+  "sig": "bNwK7cjp-YsyUQQgc6aAe1Vsh6jTdl6B_EhDROpLlUH8YKpLhoLxWvoguAEBrJsbjvqDh8Ra7enSYSO-M-bqDQ"
 }
