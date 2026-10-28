@@ -1,23 +1,23 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.6",
-  "build": 54,
-  "published_at": "2026-10-27 23:20",
-  "notes_th": "SenRerunAI / SenLiveAi 1.4.6\n\n- วิดีโอพรีวิวยังเล่นก่อนกดขึ้นไลฟ์ได้ และยังเลือกดูภาพจริงพร้อมฉากได้\n- คืนทรัพยากรเมื่อกลับไปพรีวิวคลิปก่อนเริ่มไลฟ์ และพักพรีวิวเมื่อซ่อนหน้าต่าง โดยไลฟ์ยังเดินต่อ\n- มีตัวเล่นสำรองสำหรับคลิปที่เบราว์เซอร์เปิดไม่ได้\n- ลดงานวิดีโอซ้ำระหว่างเล่นรีรันและเตรียมคลิป พร้อมแบ่งกำลังเครื่องให้งานเตรียมคลิปเบื้องหลัง\n\nรุ่นนี้ไม่ได้เปลี่ยนสเปกขั้นต่ำ และยังไม่มีผลรับรองการใช้งานบนเครื่อง i5 กราฟิกในตัว RAM 16GB ของลูกค้า",
+  "version": "1.4.7",
+  "build": 55,
+  "published_at": "2026-10-28 08:25",
+  "notes_th": "SenRerunAI / SenLiveAi 1.4.7\n\n- เลือก “ใช้เป็นสินค้าที่กำลังรีวิว” ที่หน้าสินค้า เพื่อให้ AI ยึดข้อมูลและราคาของสินค้านั้น แม้จะปักหมุดอีกตัวไว้\n- แสดงสินค้ารีวิวและสินค้าที่ปักหมุดแยกกัน เปลี่ยนหมุดได้โดยไม่เปลี่ยนสินค้ารีวิว\n- ถ้าคนดูถามถึงตัวที่ปักหมุดหรือเลขตะกร้าโดยตรง AI จะตอบตามตัวที่ถาม โดยไม่สลับสินค้ารีวิวหรือสั่งปักตามคำถาม\n- ป้องกันคำตอบลัดของสินค้าอื่นมาปน และคงระบบบันทึกข้อมูลสินค้าเดิมไว้\n\nวิธีใช้: หน้าสินค้า → เลือกสินค้า → เปิด “ใช้เป็นสินค้าที่กำลังรีวิว” แล้วปักหมุดตัวเลือกอื่นใน TikTok ได้ตามปกติ",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.6/SenLiveAi-Setup-1.4.6.exe",
-      "sha256": "d164992721b6dff1658580f6d7b34bcd600d8090b6391d559041a208850a6f4b",
-      "size": 150039983
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.7/SenLiveAi-Setup-1.4.7.exe",
+      "sha256": "a300fc036768dbe8151f72a8f10be7d96e26b583d0a98f32634319b2c8d1f849",
+      "size": 150128443
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.6/SenRerun-Setup-1.4.6.exe",
-      "sha256": "720cc208ba8abff5af21163ac2a970aef69c7db28f9db12f8ee080847787f004",
-      "size": 144680611
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.7/SenRerun-Setup-1.4.7.exe",
+      "sha256": "087d161326f7747ea972c4888849162a992a416344fd06d81a6642ff5ed57e7e",
+      "size": 144775456
     }
   },
   "mandatory": false,
-  "code_hash": "3233565e63a33e22e3cf5f72b6e8f61ecbda1b45d99a5202e3f706f22c387a9a",
-  "sig": "vifJJ0z2mDy6HNHlul5CQx41Zoqmf_NQh5LVvX9bkkg6Ki_u2HAobXztcFWyQ0hcmAYtPET1-TQY2SRStqd1Ag"
+  "code_hash": "b4d498e90058a5b3fd8967e28f86dee0611355ce81d7792e54a684cdd6a4ec45",
+  "sig": "d1-q73RBiQxtdPwlWppfokzRLJGm4hUIPhUdg7Ed8DRc79SAx308Q3ryP-JL_yEjCJfU48mpLqdBaLYoyAaZDw"
 }
