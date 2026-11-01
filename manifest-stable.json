@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.10",
-  "build": 58,
-  "published_at": "2026-11-01 12:57",
-  "notes_th": "# 1.4.10 — รองรับคีย์ทดลองใช้ฟรี 7 วัน\n\n- คีย์ทดลองจากหน้า sentarstudio.com/try ใช้ได้ครบทุกความสามารถ รวมไลฟ์จริง (7 วัน · 1 เครื่อง)\n- หน้าตั้งค่า › ลิขสิทธิ์ บอก \"คีย์ทดลอง เหลืออีก X วัน\" พร้อมข้อเสนอหลังหมดช่วงทดลอง และสวิตช์ \"ส่งสถิติการใช้งาน\" (เปิด/ปิดได้)\n- ท้ายไลฟ์/ซ้อม ส่งเฉพาะตัวเลขสรุป (ชั่วโมง คอมเมนต์ ยอดขายรวม รุ่น) ให้ผู้ขาย เฉพาะคีย์ที่ยินยอม · ไม่ส่งข้อความคอมเมนต์ ชื่อลูกค้า หรือคีย์ AI\n- ลูกค้าที่ซื้อคีย์แล้วใช้งานเหมือนเดิมทุกอย่าง",
+  "version": "1.4.11",
+  "build": 59,
+  "published_at": "2026-11-01 14:52",
+  "notes_th": "# 1.4.11 — หน้าสินค้าใหม่ · โหมดเบาเครื่อง · เชื่อม TikTok ง่ายขึ้น · คีย์ทดลอง 7 วัน\n\n- SenRerunAI: หน้าสินค้าเป็นกล่องต่อชิ้นตามตะกร้า พิมพ์ข้อมูลอิสระ AI ตอบจากชิ้นที่กำลังโชว์ ไม่สลับสินค้า\n- SenRerunAI: โหมดเบาเครื่อง (ไม่ใช้ AI) ติ๊กเดียวในตั้งค่า สำหรับคอมสเปกต่ำ\n- เชื่อม TikTok ครั้งแรกมีข้อความบอกทุกขั้น · เจอหน้ายืนยันจิ๊กซอ โปรแกรมเด้งให้แก้แล้วทำต่อเอง\n- ใส่คีย์ Gemini แล้วโปรแกรมเลือกรุ่นที่บัญชีใช้ได้ให้เอง · ปุ่มฟัง/โคลนเสียงบอกเหตุชัด\n- SenLiveAi: สมองไลฟ์ใหม่ พูดต่อเนื่อง เสียงเดียว บทเป็นวงจรปิดการขาย ร่างเปลี่ยนท่าทุกประโยค\n- คีย์ทดลองฟรี 7 วัน (sentarstudio.com/try) ใช้ไลฟ์จริงได้ · ส่งสถิติเฉพาะที่ยินยอม (ต่อจาก 1.4.10)",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.10/SenLiveAi-Setup-1.4.10.exe",
-      "sha256": "7547ac8337a31159ca05c61ef8042a579d3523d26930f8982268a7deb4a894a5",
-      "size": 149135685
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.11/SenLiveAi-Setup-1.4.11.exe",
+      "sha256": "0b08605dbba730024f1ace2378e4e93ba7bd779d11832658c69f8319aebecf8d",
+      "size": 150312896
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.10/SenRerun-Setup-1.4.10.exe",
-      "sha256": "ba2d7f1e170f39a5fa3c37281499667b0d64df978e32b11366da4ff8a909d44e",
-      "size": 146595316
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.11/SenRerun-Setup-1.4.11.exe",
+      "sha256": "54df3e3b55b1e4c4bff715761dc27c75675c7ad0ed3dc3491a517877ae04f58e",
+      "size": 144882118
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.10/SenLiveAi-Patch-1.4.10.zip",
-      "sha256": "ad065e102f854889a105bc55b8646db62af6fc35a786b19394929a9e1386686e",
-      "size": 21052292,
-      "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.11/SenLiveAi-Patch-1.4.11.zip",
+      "sha256": "86a73efaca9845afdeeddae726b0a022401daf96a313bc4cef854398ffa13ef1",
+      "size": 21614525,
+      "requirements_sha256": "b62be9d1c49b187089254e1b6f7f0301ba3a0d62686de4ce2863dc6f2440a191"
     }
   },
   "mandatory": false,
-  "code_hash": "e12cb5a03316a36386ef09dc0a8eeb8e1f98b3498800e0cc1391fb3a50441f93",
-  "sig": "ufDp2MUMTFqmIkWrkq3bUFBO7y7qcVyAWtuEIyYGmLgYezOFKN_0sf9TOIyJM-nDERpYRs3V3vMdbLeajhdoDw"
+  "code_hash": "a5cd7b3e372fa22b77faa61f6a3d71b36d2b25565258f55f7cf018edc45f415a",
+  "sig": "_Oa4fQ1NnoY3OC_jfwdk3xpl8elY8m7-984xd3whqMIlOqDUXI_QCTihDULygAYjGOcFUAaq6OsX9iZ0jL13CQ"
 }
