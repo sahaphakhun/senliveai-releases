@@ -1,23 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.9",
-  "build": 57,
-  "published_at": "2026-10-28 11:43",
-  "notes_th": "- แก้ภาพรีรันหยุดหลังโปรเซสภาพล้มซ้ำ ให้กลับมาเล่นต่อได้\n- แก้ผู้ช่วยขอให้ตรวจความพร้อมซ้ำ ทั้งที่ตรวจแล้ว",
+  "version": "1.4.10",
+  "build": 58,
+  "published_at": "2026-11-01 12:57",
+  "notes_th": "# 1.4.10 — รองรับคีย์ทดลองใช้ฟรี 7 วัน\n\n- คีย์ทดลองจากหน้า sentarstudio.com/try ใช้ได้ครบทุกความสามารถ รวมไลฟ์จริง (7 วัน · 1 เครื่อง)\n- หน้าตั้งค่า › ลิขสิทธิ์ บอก \"คีย์ทดลอง เหลืออีก X วัน\" พร้อมข้อเสนอหลังหมดช่วงทดลอง และสวิตช์ \"ส่งสถิติการใช้งาน\" (เปิด/ปิดได้)\n- ท้ายไลฟ์/ซ้อม ส่งเฉพาะตัวเลขสรุป (ชั่วโมง คอมเมนต์ ยอดขายรวม รุ่น) ให้ผู้ขาย เฉพาะคีย์ที่ยินยอม · ไม่ส่งข้อความคอมเมนต์ ชื่อลูกค้า หรือคีย์ AI\n- ลูกค้าที่ซื้อคีย์แล้วใช้งานเหมือนเดิมทุกอย่าง",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.9/SenLiveAi-Setup-1.4.9.exe",
-      "sha256": "18adbe2c518379d44084813e37bffe089b7d382f160dd7fb3970042ae20f43f5",
-      "size": 151968995
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.10/SenLiveAi-Setup-1.4.10.exe",
+      "sha256": "7547ac8337a31159ca05c61ef8042a579d3523d26930f8982268a7deb4a894a5",
+      "size": 149135685
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.9/SenRerun-Setup-1.4.9.exe",
-      "sha256": "865031c1714bd3535e8ad05c4dc20f2664c1ea58882d36f17f72957111a2812b",
-      "size": 146590306
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.10/SenRerun-Setup-1.4.10.exe",
+      "sha256": "ba2d7f1e170f39a5fa3c37281499667b0d64df978e32b11366da4ff8a909d44e",
+      "size": 146595316
+    },
+    "patch": {
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.10/SenLiveAi-Patch-1.4.10.zip",
+      "sha256": "ad065e102f854889a105bc55b8646db62af6fc35a786b19394929a9e1386686e",
+      "size": 21052292,
+      "requirements_sha256": "dd6c49a222d1f9a225b751c90954a603062bac64007afd81dbbc7fe71936b0f6"
     }
   },
   "mandatory": false,
-  "code_hash": "cdf1cabec7e4d8f16041f4374088d97b28ec70654d67e0e6b49bd435632c3894",
-  "sig": "IWz3gZF9Wsuf1tYkzB0gQpdurc1pXV4WPseRno1oL5zKyPvwnf0214AfrLw9cczztk4hI1C6uaLTGVemKquZCA"
+  "code_hash": "e12cb5a03316a36386ef09dc0a8eeb8e1f98b3498800e0cc1391fb3a50441f93",
+  "sig": "ufDp2MUMTFqmIkWrkq3bUFBO7y7qcVyAWtuEIyYGmLgYezOFKN_0sf9TOIyJM-nDERpYRs3V3vMdbLeajhdoDw"
 }
