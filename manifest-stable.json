@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.12",
-  "build": 60,
-  "published_at": "2026-11-01 15:10",
-  "notes_th": "# 1.4.12 — หน้าสินค้าใหม่ · โหมดเบาเครื่อง · เชื่อม TikTok ง่ายขึ้น · คีย์ทดลอง 7 วัน\n\n- แก้ 1.4.11: เครื่องยนต์ร่างของ SenLiveAi เปิดไม่ขึ้นในชุดติดตั้ง (ไฟล์ขาด 2 ตัว) — ใส่ครบแล้ว\n- SenRerunAI: หน้าสินค้าเป็นกล่องต่อชิ้นตามตะกร้า พิมพ์ข้อมูลอิสระ AI ตอบจากชิ้นที่กำลังโชว์ ไม่สลับสินค้า\n- SenRerunAI: โหมดเบาเครื่อง (ไม่ใช้ AI) ติ๊กเดียวในตั้งค่า สำหรับคอมสเปกต่ำ\n- เชื่อม TikTok ครั้งแรกมีข้อความบอกทุกขั้น · เจอหน้ายืนยันจิ๊กซอ โปรแกรมเด้งให้แก้แล้วทำต่อเอง\n- ใส่คีย์ Gemini แล้วโปรแกรมเลือกรุ่นที่บัญชีใช้ได้ให้เอง · ปุ่มฟัง/โคลนเสียงบอกเหตุชัด\n- SenLiveAi: สมองไลฟ์ใหม่ พูดต่อเนื่อง เสียงเดียว บทเป็นวงจรปิดการขาย ร่างเปลี่ยนท่าทุกประโยค\n- คีย์ทดลองฟรี 7 วัน (sentarstudio.com/try) ใช้ไลฟ์จริงได้ · ส่งสถิติเฉพาะที่ยินยอม (ต่อจาก 1.4.10)",
+  "version": "1.4.13",
+  "build": 61,
+  "published_at": "2026-11-02 11:15",
+  "notes_th": "# 1.4.13 — ร่างลื่นตอนไลฟ์ · ร่างคมขึ้น · ปรับฉากเขียวละเอียด\n\n- SenLiveAi: แก้ร่างกระตุก/ภาพค้างแวบ ๆ ระหว่างไลฟ์ ซ้อม และกดทดสอบ โดยเฉพาะตอนเปิดหน้าโปรแกรมไว้หรือมีสินค้าในตะกร้าหลายชิ้น (หน้าโปรแกรมคำนวณสถานะเบาลงมาก)\n- SenLiveAi: ประกอบภาพไลฟ์ใช้แกนประมวลผลตามขนาดเครื่อง (เครื่องแรงลื่นขึ้น เครื่องเล็กเท่าเดิม)\n- SenLiveAi: ร่าง MuseTalk คมขึ้น ปาก คาง กรามชัด ไม่มีคราบเขียวขุ่นรอบคางบนฉากเขียว\n- SenLiveAi: แถบเลื่อนปรับฉากเขียวละเอียด 4 ตัว ในหน้าพนักงาน › ลบฉากเขียว\n- SenLiveAi: ตรวจเสียงก่อนเริ่มไลฟ์ตรวจไฟล์เสียงจริงทุกไฟล์\n- ทั้งสองโปรแกรม: หน้าโปรแกรมถามสถานะห่างขึ้นเองเมื่อเครื่องกำลังคำนวณหนัก",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.12/SenLiveAi-Setup-1.4.12.exe",
-      "sha256": "179089c436ed9bea938e289f0a051953f1cf64dd08c8ddabc9030735464ad2d9",
-      "size": 150272101
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.13/SenLiveAi-Setup-1.4.13.exe",
+      "sha256": "81c67af683d8b4d096a28ed55984c7fbff3b549c27d4eb93ad624ba5f88ae480",
+      "size": 150369409
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.12/SenRerun-Setup-1.4.12.exe",
-      "sha256": "f16e3c62dc181392af0a61d4fdbcbbb4c2261c10e3f18b5c9b50db66b87634fc",
-      "size": 144824641
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.13/SenRerun-Setup-1.4.13.exe",
+      "sha256": "d4ad90443aaf579d9e49124f57363004fcb950b447b99a5cb534cc5149637654",
+      "size": 144946836
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.12/SenLiveAi-Patch-1.4.12.zip",
-      "sha256": "e84c2254d7dabca4c162b759dda5ffbdb6e9dc1c2622805658809c27d3e64abe",
-      "size": 21558735,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.13/SenLiveAi-Patch-1.4.13.zip",
+      "sha256": "7cde3c5d23307fb458cc1840ef500067773e08ab70bd6dedc860fafd537176d9",
+      "size": 21670477,
       "requirements_sha256": "b62be9d1c49b187089254e1b6f7f0301ba3a0d62686de4ce2863dc6f2440a191"
     }
   },
   "mandatory": false,
-  "code_hash": "ead233769e3bc684441471133f7cd8b959509a051bbd9eb14a975e4c98b3a21b",
-  "sig": "vG6INaYg7g-Tp5ezd9YCK40WRqujV4w-oIbYlqZZvpKU_YkZ-jCI_OARR6WM7P0KAX2iJWGRxkMuzXYdsTD3Bg"
+  "code_hash": "2c12f9f2424dd6af7227654c51b337891da6c4c810502fbfb61636d513281bbc",
+  "sig": "jfYgoPcOqeoGEcmmZ2Qt8xZ2B3hE7-6wVNpdPuXrxoqbpiETc8r-QL_L2TY7mDKtzk7-6DltMKFny4qm3gBfDg"
 }
