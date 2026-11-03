@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.13",
-  "build": 61,
-  "published_at": "2026-11-02 11:15",
-  "notes_th": "# 1.4.13 — ร่างลื่นตอนไลฟ์ · ร่างคมขึ้น · ปรับฉากเขียวละเอียด\n\n- SenLiveAi: แก้ร่างกระตุก/ภาพค้างแวบ ๆ ระหว่างไลฟ์ ซ้อม และกดทดสอบ โดยเฉพาะตอนเปิดหน้าโปรแกรมไว้หรือมีสินค้าในตะกร้าหลายชิ้น (หน้าโปรแกรมคำนวณสถานะเบาลงมาก)\n- SenLiveAi: ประกอบภาพไลฟ์ใช้แกนประมวลผลตามขนาดเครื่อง (เครื่องแรงลื่นขึ้น เครื่องเล็กเท่าเดิม)\n- SenLiveAi: ร่าง MuseTalk คมขึ้น ปาก คาง กรามชัด ไม่มีคราบเขียวขุ่นรอบคางบนฉากเขียว\n- SenLiveAi: แถบเลื่อนปรับฉากเขียวละเอียด 4 ตัว ในหน้าพนักงาน › ลบฉากเขียว\n- SenLiveAi: ตรวจเสียงก่อนเริ่มไลฟ์ตรวจไฟล์เสียงจริงทุกไฟล์\n- ทั้งสองโปรแกรม: หน้าโปรแกรมถามสถานะห่างขึ้นเองเมื่อเครื่องกำลังคำนวณหนัก",
+  "version": "1.4.14",
+  "build": 62,
+  "published_at": "2026-11-03 22:46",
+  "notes_th": "# 1.4.14 — เปลี่ยนคลิประหว่างไลฟ์ได้ (SenRerunAI)\n\n- SenRerunAI: เพิ่มหรือเปลี่ยนคลิประหว่างไลฟ์ได้เลย ไม่ต้องหยุดไลฟ์ ห้องไลฟ์เดิม\n  - เปลี่ยนคลิปที่กำลังเล่น = ภาพสลับไปคลิปใหม่ภายในไม่กี่วินาที\n  - เพิ่มคลิป = คลิปที่เล่นอยู่เล่นต่อจนจบ แล้วต่อด้วยคลิปใหม่\n  - เอาคลิปออก ยังทำได้หลังหยุดไลฟ์ (กันรายการคลิปว่างกลางไลฟ์)",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.13/SenLiveAi-Setup-1.4.13.exe",
-      "sha256": "81c67af683d8b4d096a28ed55984c7fbff3b549c27d4eb93ad624ba5f88ae480",
-      "size": 150369409
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.14/SenLiveAi-Setup-1.4.14.exe",
+      "sha256": "329f38d44302428c7d562745c9af6fa07f80df4d6056f2f29195dcd3f76c5fab",
+      "size": 150360142
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.13/SenRerun-Setup-1.4.13.exe",
-      "sha256": "d4ad90443aaf579d9e49124f57363004fcb950b447b99a5cb534cc5149637654",
-      "size": 144946836
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.14/SenRerun-Setup-1.4.14.exe",
+      "sha256": "f1b45eb74e7326ec3e0455435b0ddf474d6695b03d51d85860e7457c21b2d71f",
+      "size": 144951612
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.13/SenLiveAi-Patch-1.4.13.zip",
-      "sha256": "7cde3c5d23307fb458cc1840ef500067773e08ab70bd6dedc860fafd537176d9",
-      "size": 21670477,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.14/SenLiveAi-Patch-1.4.14.zip",
+      "sha256": "97f2080a55d1101d523b7d59b5dfa084c084717358a5c2d952d4e280b957f1a2",
+      "size": 21672392,
       "requirements_sha256": "b62be9d1c49b187089254e1b6f7f0301ba3a0d62686de4ce2863dc6f2440a191"
     }
   },
   "mandatory": false,
-  "code_hash": "2c12f9f2424dd6af7227654c51b337891da6c4c810502fbfb61636d513281bbc",
-  "sig": "jfYgoPcOqeoGEcmmZ2Qt8xZ2B3hE7-6wVNpdPuXrxoqbpiETc8r-QL_L2TY7mDKtzk7-6DltMKFny4qm3gBfDg"
+  "code_hash": "dd702393298c825f6bd030e59c72eaf94e445fd523df06acb3305dff47a78373",
+  "sig": "6lSPHxsOiI5rz3Pkk6afwa9aZ9djGnD_ampAc6RwI52JY8JTOmejIsthRanCIyHVLU6Frt9GdSRKC-RKEOgGCQ"
 }
