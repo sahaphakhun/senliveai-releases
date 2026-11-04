@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.14",
-  "build": 62,
-  "published_at": "2026-11-03 22:46",
-  "notes_th": "# 1.4.14 — เปลี่ยนคลิประหว่างไลฟ์ได้ (SenRerunAI)\n\n- SenRerunAI: เพิ่มหรือเปลี่ยนคลิประหว่างไลฟ์ได้เลย ไม่ต้องหยุดไลฟ์ ห้องไลฟ์เดิม\n  - เปลี่ยนคลิปที่กำลังเล่น = ภาพสลับไปคลิปใหม่ภายในไม่กี่วินาที\n  - เพิ่มคลิป = คลิปที่เล่นอยู่เล่นต่อจนจบ แล้วต่อด้วยคลิปใหม่\n  - เอาคลิปออก ยังทำได้หลังหยุดไลฟ์ (กันรายการคลิปว่างกลางไลฟ์)",
+  "version": "1.4.15",
+  "build": 63,
+  "published_at": "2026-11-04 07:11",
+  "notes_th": "# 1.4.15 — เลือกคลิปให้เล่นตอนนี้ระหว่างไลฟ์ (SenRerunAI)\n\n- SenRerunAI: ระหว่างไลฟ์ กดเลือกคลิปในรายการ แล้วกด \"เล่นคลิปนี้ตอนนี้\" ภาพสลับไปคลิปนั้นภายในไม่กี่วินาที ห้องไลฟ์เดิม\n- ป้ายบนหน้าคลิประหว่างไลฟ์บอกวิธีใช้ชัดขึ้น (เพิ่ม/เปลี่ยนคลิปได้ระหว่างไลฟ์ตั้งแต่ 1.4.14)",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.14/SenLiveAi-Setup-1.4.14.exe",
-      "sha256": "329f38d44302428c7d562745c9af6fa07f80df4d6056f2f29195dcd3f76c5fab",
-      "size": 150360142
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.15/SenLiveAi-Setup-1.4.15.exe",
+      "sha256": "afd7a88cba6a52e9b1df01b173363b06409eed6bfd017d4b1a46ac8be6a0928a",
+      "size": 150351946
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.14/SenRerun-Setup-1.4.14.exe",
-      "sha256": "f1b45eb74e7326ec3e0455435b0ddf474d6695b03d51d85860e7457c21b2d71f",
-      "size": 144951612
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.15/SenRerun-Setup-1.4.15.exe",
+      "sha256": "8e2a6be644d29cf7b4953c509dc124d05ba80f1b8331a603a38f8883f12f9b32",
+      "size": 144938762
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.14/SenLiveAi-Patch-1.4.14.zip",
-      "sha256": "97f2080a55d1101d523b7d59b5dfa084c084717358a5c2d952d4e280b957f1a2",
-      "size": 21672392,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.15/SenLiveAi-Patch-1.4.15.zip",
+      "sha256": "9729265172ff548b1ac8020db57e26041e433dcf4152ba105a85328bc6c346a1",
+      "size": 21677908,
       "requirements_sha256": "b62be9d1c49b187089254e1b6f7f0301ba3a0d62686de4ce2863dc6f2440a191"
     }
   },
   "mandatory": false,
-  "code_hash": "dd702393298c825f6bd030e59c72eaf94e445fd523df06acb3305dff47a78373",
-  "sig": "6lSPHxsOiI5rz3Pkk6afwa9aZ9djGnD_ampAc6RwI52JY8JTOmejIsthRanCIyHVLU6Frt9GdSRKC-RKEOgGCQ"
+  "code_hash": "76c9dedec7768fdf1fab04a37633802fb2cc150e559cd97cf74ae87dbe7c7950",
+  "sig": "OVH8clVEIbkzp8-nCSZZXmaDu7nwD0leU-ttSuHWFVcuVlAhlCctIpO0ZxJ7rEpTahDnlXngmXyTkGX0dLQiAA"
 }
