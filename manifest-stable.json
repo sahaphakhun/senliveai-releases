@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.19",
-  "build": 67,
-  "published_at": "2026-11-05 10:47",
-  "notes_th": "# 1.4.19 — แก้หน่วงเมื่อเปิดนาน + ภาพคมขึ้นบนเครื่องไม่มีการ์ดจอ NVIDIA\n\n- แก้โปรแกรมหน่วงเมื่อเปิดค้างไว้นาน: งานเบื้องหลังที่จบแล้วถูกเก็บค้างไม่ยอมทิ้ง (สะสมหลักหมื่นใน 12 ชม.) — ตอนนี้ทิ้งทันทีที่จบ\n- ภาพคมขึ้นบนเครื่องที่ไม่มีการ์ดจอ NVIDIA: คลิปที่เตรียมไว้ใช้ข้อมูลภาพคงที่เต็มเพดาน ฉากมืดไม่เบลออีก · เพดานคลิปที่เตรียมไว้ 8 → 12 Mbps\n- คลิปที่เคยเตรียมไว้แบบเก่าจะเตรียมใหม่ให้เองหลังจบไลฟ์ (ระหว่างนั้นยังใช้คลิปเดิมได้ ไม่สะดุด)",
+  "version": "1.4.20",
+  "build": 68,
+  "published_at": "2026-11-05 11:46",
+  "notes_th": "# 1.4.20 — คีย์ที่ล็อกเพราะเวลาเครื่องผิด ปลดได้เอง\n\n- คีย์ขึ้น \"คีย์ใช้ไม่ได้\" เพราะเวลาในเครื่องเคยผิด (เช่น นาฬิกาเคยเร็วแล้วถูกแก้): ตั้งวันเวลา Windows ให้ถูก แล้วกด \"ตรวจคีย์อีกครั้ง\" ใช้ได้ทันที — โปรแกรมยืนยันเวลากับเซิร์ฟเวอร์ก่อนทุกครั้ง\n- ถ้าเวลาเครื่องยังผิดอยู่ จะบอกเป็นภาษาไทยให้ตั้งเวลาอัตโนมัติ แทนข้อความภาษาอังกฤษ\n- การกันแก้เวลาเพื่อยืดวันหมดอายุยังทำงานเหมือนเดิม",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.19/SenLiveAi-Setup-1.4.19.exe",
-      "sha256": "a3b4e406a34036b6ff356d11c17e99f7dd6d2fcfa671ef0b03ce70d0a669c907",
-      "size": 150503991
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.20/SenLiveAi-Setup-1.4.20.exe",
+      "sha256": "3e84a1f935d198635792c85bfa91be93989d45859f90193777ec73e755e0ec79",
+      "size": 150506945
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.19/SenRerun-Setup-1.4.19.exe",
-      "sha256": "b5538b2e4b37a961bada9be76bc4579651a579dbd4aa96911689d863f60f88d7",
-      "size": 145015161
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.20/SenRerun-Setup-1.4.20.exe",
+      "sha256": "9eea0823ceb8523324dde840bd103db59405b64e7312c6c539e7304da37e5a11",
+      "size": 145025477
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.19/SenLiveAi-Patch-1.4.19.zip",
-      "sha256": "af6691517dc1f76c80b7db3ed47e04bdc1f4a4e37a17b1dabe77b95f5958033c",
-      "size": 21769070,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.20/SenLiveAi-Patch-1.4.20.zip",
+      "sha256": "b27416fa2a82f9d573dbb0960e961f0551b68bac80d7996d6c2c79d6fcf655ef",
+      "size": 21778690,
       "requirements_sha256": "b62be9d1c49b187089254e1b6f7f0301ba3a0d62686de4ce2863dc6f2440a191"
     }
   },
   "mandatory": false,
-  "code_hash": "a3edede32a6325e7f100a964478d03eb6f3236e346b7e6fa28f5e4123c341015",
-  "sig": "hVj1rWdIwl6AgHvGz8z327QIw9Vjvzwb4GBjThMypK2vuKs1Wcg1OBzSx3qYl6F15Htyi4GKrWdgiw6oxeYPDA"
+  "code_hash": "0796e8a0d4079742dc16e22d3c0d28c41980568a1e66419dbc803a428634451f",
+  "sig": "ry-t7ZtnFpoDi6L10uzpxcTcELjaguqj9PsoCs521BVHRPBltvI-BfBdptmdV9c-2KFcQitOwlvqU4YDbkpTCQ"
 }
