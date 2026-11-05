@@ -1,29 +1,29 @@
 {
   "product": "senliveai",
   "channel": "stable",
-  "version": "1.4.17",
-  "build": 65,
-  "published_at": "2026-11-04 11:49",
-  "notes_th": "# 1.4.17 — สถานะ \"ตอบแล้ว\" ตรงจริง + บอกเหตุผลที่ไม่ได้ตอบ\n\n- \"ตอบแล้ว\" ขึ้นเมื่อพูดออกไปจริงเท่านั้น ระหว่างรอพูดเป็น \"กำลังจะตอบ\"\n- คอมเมนต์ที่ไม่ได้ตอบบอกเหตุผล (เกินเพดานต่อนาที, AI ปิดอยู่, รอนานเกิน, ไม่เจอคำตอบ ฯลฯ) และหน้าไลฟ์มีกล่องสรุปเหตุผล\n- SenRerunAI: ตั้งค่าที่ไม่ทำงานในโหมดวนคลิปมีป้ายบอกชัด · ชิป AI ปิดบอกว่าไม่ได้อ่านคอมเมนต์\n- SenRerunAI: เอาคลิปออกจากรายการได้ระหว่างไลฟ์ (ต้องเหลืออย่างน้อย 1 คลิป)\n- SenRerunAI: ปักตะกร้าแล้วแนะนำสินค้า 1 ครั้งต่อการปัก ไม่พูดซ้ำถี่",
+  "version": "1.4.18",
+  "build": 66,
+  "published_at": "2026-11-05 07:06",
+  "notes_th": "# 1.4.18 — ปักกลับตะกร้าหลักหลังลูกค้าถามชิ้นอื่น\n\n- ลูกค้าถามตะกร้าอื่น ระบบปักชิ้นนั้นโชว์สั้น ๆ แล้วปักกลับตะกร้าหลักให้แน่นอน — ถ้าครั้งแรกไม่สำเร็จจะลองใหม่ให้เอง (ยังเคารพด่านกันบัญชี/จิ๊กซอว์เดิม)\n- ตะกร้าหลักตามชิ้นที่คุณปักเองล่าสุด · ชิ้นที่ระบบปักตามคำถามไม่ถูกนับเป็นตะกร้าหลัก\n- ตะกร้าหลักที่ค้างจากไลฟ์ก่อน (ไม่อยู่ในตะกร้าวันนี้) ไม่ขวางการปักกลับอีก\n- ถ้ายังปักกลับไม่ได้ หน้าไลฟ์บอกเหตุผลต่อท้ายชื่อตะกร้าหลัก",
   "assets": {
     "setup": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.17/SenLiveAi-Setup-1.4.17.exe",
-      "sha256": "aabd4979d99e9f6a6d7369c4fa3cb86c095c771b8c9ed86969eec418a7037785",
-      "size": 150410433
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.18/SenLiveAi-Setup-1.4.18.exe",
+      "sha256": "c311a5a02c34d4736ec33b93a60b630cd1a4034cb4da0ad5b0d31952cbf7698b",
+      "size": 150478982
     },
     "setup_rerun": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.17/SenRerun-Setup-1.4.17.exe",
-      "sha256": "73c76ba0cb5713ce393590c4425ef1f25260536a36a8edcffdc875154c5b6727",
-      "size": 144982380
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.18/SenRerun-Setup-1.4.18.exe",
+      "sha256": "f32cf12aff1174319800424ad7d241bc82f0493af24b5381ecd8b5b3e9689470",
+      "size": 145009684
     },
     "patch": {
-      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.17/SenLiveAi-Patch-1.4.17.zip",
-      "sha256": "ee66a0fb2292f1a423da196cd1cc66c2b534a61f8e4dfbb441ed3512ace4b02f",
-      "size": 21728361,
+      "url": "https://github.com/sahaphakhun/senliveai-releases/releases/download/v1.4.18/SenLiveAi-Patch-1.4.18.zip",
+      "sha256": "c17ed99f2cfc3e5e1b9934ffda5c55cb6bc5c166255dae84ffc1ab1a3375868e",
+      "size": 21761607,
       "requirements_sha256": "b62be9d1c49b187089254e1b6f7f0301ba3a0d62686de4ce2863dc6f2440a191"
     }
   },
   "mandatory": false,
-  "code_hash": "95c220bc794c7e97a5a7f3818f3aab87254fbfd36688bd04677af95d7cc191fa",
-  "sig": "BufoXRvJKL-WZjulKM-6styjYG6c_OS-k9MlGY6urx9vnFXUHhR-2HvlBtILvFOGQDGB9qaLsjMue4AuOw5WCw"
+  "code_hash": "97b664ba2f41e2a317f38194273c6d2f1525758a4a71e4e795a93a189ec6bdbb",
+  "sig": "a4LDxGkjSAejk_mvtp3fiWslw_VgYraABhX-OhkUibEUmIHzKDQeQ_DpArM2EG_i4JK0PcQW8l0a2rkBfHASCg"
 }
